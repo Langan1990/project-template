@@ -1,5 +1,5 @@
 # Irish Constituencies Neo4j Database
-###### Student name, G00123456
+###### Keith Langan, G00318481
 
 ## Introduction
 Give a summary here of what your project is about.
@@ -40,3 +40,4 @@ RETURN
 
 ## References
 1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
+2. (https://www.youtube.com/watch?v=0fKg7e37bQE/),  Github Tutorial
