@@ -9,6 +9,12 @@ Then we have to come up with 3 queries that show some useful information about t
 I started the database by creating the constituencies. Here is an example of one of the create statements:
 
 	CREATE(constituency:Constituency {id: 4, Name: "Louth", SeatsAvailable: 5})
+	
+I used the following statement to create the candidates:
+
+	CREATE(can:Candidate {cid: 1, Name: "Pat 'The Cope' Gallagher", Party: "Fianna Fail", Gender: "Male", Age: 67, Constituency: "Donegal", Elected: "Yes"})
+	
+	
 
 ## Queries
 Summarise your three queries here.
