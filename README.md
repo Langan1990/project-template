@@ -2,10 +2,13 @@
 ###### Keith Langan, G00318481
 
 ## Introduction
-Give a summary here of what your project is about.
+This project is about the 2016 general elections. We have to create all the constituencies and candidates as nodes in neo4j and create relationships between them. 
+Then we have to come up with 3 queries that show some useful information about the databsae. 
 
 ## Database
-Explain how you created your database, and how information is represented in it.
+I started the database by creating the constituencies. Here is an example of one of the create statements:
+
+	CREATE(constituency:Constituency {id: 4, Name: "Louth", SeatsAvailable: 5})
 
 ## Queries
 Summarise your three queries here.
