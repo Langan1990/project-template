@@ -51,3 +51,5 @@ RETURN
 1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
 2. (https://www.youtube.com/watch?v=0fKg7e37bQE/),  Github Tutorial
 http://irishpoliticalmaps.blogspot.ie/2012/06/constituency-commission-boundary.html
+
+http://www.thejournal.ie/election-2016/constituency/6/
