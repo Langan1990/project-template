@@ -4090,3 +4090,885 @@ Storage files: (filename : modification date - size)
 2016-04-08 16:06:26.906+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
 2016-04-08 16:06:26.916+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
 2016-04-08 17:00:26.515+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 2728695ms.
+2016-04-08 17:20:27.103+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2016-04-08 17:20:28.302+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2016-04-08 17:20:28.476+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2016-04-08 17:20:28.495+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2016-04-08 17:20:28.496+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=C:\Users\Keith\Documents\project-template\constituencies.graphdb\neo4j.properties
+2016-04-08 17:20:28.496+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=C:\Users\Keith\Documents\project-template\constituencies.graphdb
+2016-04-08 17:20:28.496+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2016-04-08 17:20:28.497+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=C:\Users\Keith\Documents\project-template\constituencies.graphdb\.\dbms\auth
+2016-04-08 17:20:28.497+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=C:\Users\Keith\Documents\project-template\constituencies.graphdb\.\dbms\ssl\snakeoil.cert
+2016-04-08 17:20:28.497+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2016-04-08 17:20:28.498+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2016-04-08 17:20:28.498+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=C:\Users\Keith\Documents\project-template\constituencies.graphdb\.\dbms\ssl\snakeoil.key
+2016-04-08 17:20:28.498+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2016-04-08 17:20:28.499+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2016-04-08 17:20:28.499+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2016-04-08 17:20:28.499+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2016-04-08 17:20:28.499+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2016-04-08 17:20:28.499+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2016-04-08 17:20:28.500+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2016-04-08 17:20:28.500+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2016-04-08 17:20:28.500+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2016-04-08 17:20:28.500+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2016-04-08 17:20:28.500+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2016-04-08 17:20:28.501+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2016-04-08 17:20:28.589+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 3.89 GB
+2016-04-08 17:20:28.590+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 1.84 GB
+2016-04-08 17:20:28.591+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 159.65 MB
+2016-04-08 17:20:28.591+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 4.57 GB
+2016-04-08 17:20:28.592+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 2.29 GB
+2016-04-08 17:20:28.592+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2016-04-08 17:20:28.593+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 30.01 MB
+2016-04-08 17:20:28.593+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 60.00 MB
+2016-04-08 17:20:28.594+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 885.50 MB
+2016-04-08 17:20:29.071+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2016-04-08 17:20:29.072+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2016-04-08 17:20:29.106+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=921.69 kB, max=48.00 MB, threshold=0.00 B
+2016-04-08 17:20:29.108+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=16.00 MB, used=4.92 MB, max=327.00 MB, threshold=?
+2016-04-08 17:20:29.109+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=2.50 MB, used=2.47 MB, max=2.50 MB, threshold=?
+2016-04-08 17:20:29.111+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=41.50 MB, used=22.60 MB, max=664.00 MB, threshold=0.00 B
+2016-04-08 17:20:29.114+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=21.00 MB, used=20.44 MB, max=82.00 MB, threshold=0.00 B
+2016-04-08 17:20:29.115+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2016-04-08 17:20:29.118+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Windows 8.1; version: 6.3; arch: amd64; cpus: 4
+2016-04-08 17:20:29.170+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 2436@Langan
+2016-04-08 17:20:29.170+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2016-04-08 17:20:29.171+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/London
+2016-04-08 17:20:29.171+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2016-04-08 17:20:29.171+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2016-04-08 17:20:29.171+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2016-04-08 17:20:29.172+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2016-04-08 17:20:29.181+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2016-04-08 17:20:29.182+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dexe4j.semaphoreName=Local\c:_program_files_neo4j_ce_2.3.2_bin_neo4j-ce.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=C:\Program Files\Neo4j CE 2.3.2\bin\neo4j-ce.exe, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git LFS;c:\program files\neo4j ce 2.3.2\jre\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2016-04-08 17:20:29.182+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2016-04-08 17:20:29.191+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/access-bridge-64.jar
+2016-04-08 17:20:29.191+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/dns_sd.jar
+2016-04-08 17:20:29.192+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\charsets.jar
+2016-04-08 17:20:29.192+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/jaccess.jar
+2016-04-08 17:20:29.192+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/sunmscapi.jar
+2016-04-08 17:20:29.192+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 2.3.2\.install4j\i4jruntime.jar
+2016-04-08 17:20:29.192+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/sunjce_provider.jar
+2016-04-08 17:20:29.192+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\resources.jar
+2016-04-08 17:20:29.193+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 2.3.2\bin\neo4j-desktop-2.3.2.jar
+2016-04-08 17:20:29.193+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/bin/
+2016-04-08 17:20:29.193+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\jsse.jar
+2016-04-08 17:20:29.193+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\rt.jar
+2016-04-08 17:20:29.193+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\jce.jar
+2016-04-08 17:20:29.193+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/bin/neo4j-desktop-2.3.2.jar
+2016-04-08 17:20:29.194+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/localedata.jar
+2016-04-08 17:20:29.194+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/.install4j/i4jruntime.jar
+2016-04-08 17:20:29.194+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/zipfs.jar
+2016-04-08 17:20:29.194+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/sunec.jar
+2016-04-08 17:20:29.195+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\jfr.jar
+2016-04-08 17:20:29.195+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/dnsns.jar
+2016-04-08 17:20:29.195+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\classes
+2016-04-08 17:20:29.195+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\sunrsasign.jar
+2016-04-08 17:20:29.196+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2016-04-08 17:20:29.198+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\ProgramData\Oracle\Java\javapath
+2016-04-08 17:20:29.199+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32
+2016-04-08 17:20:29.200+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows
+2016-04-08 17:20:29.201+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\wbem
+2016-04-08 17:20:29.202+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2016-04-08 17:20:29.204+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Brackets\command
+2016-04-08 17:20:29.206+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn
+2016-04-08 17:20:29.207+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\100\Tools\Binn
+2016-04-08 17:20:29.209+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\100\DTS\Binn
+2016-04-08 17:20:29.210+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\GtkSharp\2.12\bin
+2016-04-08 17:20:29.211+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit
+2016-04-08 17:20:29.213+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Skype\Phone
+2016-04-08 17:20:29.214+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Git LFS
+2016-04-08 17:20:29.215+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Neo4j CE 2.3.2\jre\bin
+2016-04-08 17:20:29.215+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2016-04-08 17:20:29.216+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = C:\Program Files\Neo4j CE 2.3.2\bin\neo4j-ce.exe
+2016-04-08 17:20:29.216+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.semaphoreName = Local\c:_program_files_neo4j_ce_2.3.2_bin_neo4j-ce.exe
+2016-04-08 17:20:29.217+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = c:\program files\neo4j ce 2.3.2\jre\bin
+2016-04-08 17:20:29.217+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.consoleCodepage = cp0
+2016-04-08 17:20:29.217+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = ;
+2016-04-08 17:20:29.218+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2016-04-08 17:20:29.218+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GB
+2016-04-08 17:20:29.218+0000 INFO  [o.n.k.i.DiagnosticsManager] user.script = 
+2016-04-08 17:20:29.218+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = 
+2016-04-08 17:20:29.219+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = C:\Program Files\Neo4j CE 2.3.2\bin\
+2016-04-08 17:20:29.219+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = C:\Program Files\Neo4j CE 2.3.2\bin
+2016-04-08 17:20:29.219+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2016-04-08 17:20:29.219+0000 INFO  [o.n.k.i.DiagnosticsManager] user.variant = 
+2016-04-08 17:20:29.219+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.tempDir = 
+2016-04-08 17:20:29.220+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = Cp1252
+2016-04-08 17:20:29.220+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2016-04-08 17:20:29.220+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2016-04-08 17:20:29.221+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2016-04-08 17:20:29.221+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.isInstall4j = true
+2016-04-08 17:20:29.221+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2016-04-08 17:20:29.221+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = C:\Users\Keith
+2016-04-08 17:20:29.222+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/London
+2016-04-08 17:20:29.222+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = Cp1252
+2016-04-08 17:20:29.222+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = Keith
+2016-04-08 17:20:29.223+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = C:\Program Files\Neo4j CE 2.3.2\bin\neo4j-ce.exe
+2016-04-08 17:20:29.223+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2016-04-08 17:20:29.223+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.launchName = C:\Program Files\Neo4j CE 2.3.2\bin\neo4j-ce.exe
+2016-04-08 17:20:29.223+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2016-04-08 17:20:29.224+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2016-04-08 17:20:29.224+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.unextractedPosition = 0
+2016-04-08 17:20:29.225+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = C:\Program Files\Neo4j CE 2.3.2\
+2016-04-08 17:20:29.225+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = \
+2016-04-08 17:20:29.225+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2016-04-08 17:20:29.226+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2016-04-08 17:20:29.226+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.desktop = windows
+2016-04-08 17:20:29.226+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = amd64
+2016-04-08 17:20:29.227+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2016-04-08 17:20:29.318+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Software Loopback Interface 1:
+2016-04-08 17:20:29.319+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2016-04-08 17:20:29.320+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2016-04-08 17:20:29.320+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card:
+2016-04-08 17:20:29.320+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 192.168.0.12
+2016-04-08 17:20:29.321+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:4cbd:8cf:f2f4:7ae3%2
+2016-04-08 17:20:29.321+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2016-04-08 17:20:29.321+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:482:a544:9dba:a7b0%3
+2016-04-08 17:20:29.322+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #2:
+2016-04-08 17:20:29.322+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Kernel Debug Network Adapter:
+2016-04-08 17:20:29.322+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller:
+2016-04-08 17:20:29.322+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:8c7f:a8ff:7b43:1fe9%6
+2016-04-08 17:20:29.323+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter:
+2016-04-08 17:20:29.323+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:5efe:c0a8:c%7
+2016-04-08 17:20:29.323+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Teredo Tunneling Pseudo-Interface:
+2016-04-08 17:20:29.324+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 2001:0:5ef5:79fd:1898:2985:d1f8:7da2
+2016-04-08 17:20:29.324+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:1898:2985:d1f8:7da2%8
+2016-04-08 17:20:29.324+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #3:
+2016-04-08 17:20:29.325+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000:
+2016-04-08 17:20:29.325+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000:
+2016-04-08 17:20:29.325+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2016-04-08 17:20:29.326+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card-WFP Native MAC Layer LightWeight Filter-0000:
+2016-04-08 17:20:29.326+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card-Virtual WiFi Filter Driver-0000:
+2016-04-08 17:20:29.326+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card-Native WiFi Filter Driver-0000:
+2016-04-08 17:20:29.327+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card-QoS Packet Scheduler-0000:
+2016-04-08 17:20:29.327+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2016-04-08 17:20:29.327+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2016-04-08 17:20:29.328+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2016-04-08 17:20:29.328+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2016-04-08 17:20:29.328+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2016-04-08 17:20:29.329+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2016-04-08 17:20:38.837+0000 INFO  [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db.labels] ...
+2016-04-08 17:20:38.976+0000 INFO  [o.n.k.i.s.DynamicArrayStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db.labels] high id=1 (defragged=0)
+2016-04-08 17:20:38.983+0000 INFO  [o.n.k.i.s.DynamicArrayStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2016-04-08 17:20:38.991+0000 INFO  [o.n.k.i.s.NodeStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db] ...
+2016-04-08 17:20:39.190+0000 INFO  [o.n.k.i.s.NodeStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db] high id=994 (defragged=0)
+2016-04-08 17:20:39.200+0000 INFO  [o.n.k.i.s.NodeStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db rebuild id generator, highId=994 defragged count=0
+2016-04-08 17:20:39.211+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index.keys] ...
+2016-04-08 17:20:39.358+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index.keys] high id=11 (defragged=0)
+2016-04-08 17:20:39.367+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index.keys rebuild id generator, highId=11 defragged count=0
+2016-04-08 17:20:39.377+0000 INFO  [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index] ...
+2016-04-08 17:20:39.570+0000 INFO  [o.n.k.i.s.PropertyKeyTokenStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index] high id=10 (defragged=0)
+2016-04-08 17:20:39.578+0000 INFO  [o.n.k.i.s.PropertyKeyTokenStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index rebuild id generator, highId=10 defragged count=0
+2016-04-08 17:20:39.841+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.strings] ...
+2016-04-08 17:20:39.931+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.strings] high id=1 (defragged=0)
+2016-04-08 17:20:39.943+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2016-04-08 17:20:39.954+0000 INFO  [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.arrays] ...
+2016-04-08 17:20:40.087+0000 INFO  [o.n.k.i.s.DynamicArrayStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2016-04-08 17:20:40.096+0000 INFO  [o.n.k.i.s.DynamicArrayStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2016-04-08 17:20:40.104+0000 INFO  [o.n.k.i.s.PropertyStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db] ...
+2016-04-08 17:20:40.249+0000 INFO  [o.n.k.i.s.PropertyStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db] high id=1771 (defragged=0)
+2016-04-08 17:20:40.262+0000 INFO  [o.n.k.i.s.PropertyStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db rebuild id generator, highId=1771 defragged count=0
+2016-04-08 17:20:40.274+0000 INFO  [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipstore.db] ...
+2016-04-08 17:20:40.465+0000 INFO  [o.n.k.i.s.RelationshipStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipstore.db] high id=0 (defragged=0)
+2016-04-08 17:20:40.474+0000 INFO  [o.n.k.i.s.RelationshipStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipstore.db rebuild id generator, highId=0 defragged count=0
+2016-04-08 17:20:40.483+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db.names] ...
+2016-04-08 17:20:40.671+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db.names] high id=1 (defragged=0)
+2016-04-08 17:20:40.681+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2016-04-08 17:20:40.690+0000 INFO  [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db] ...
+2016-04-08 17:20:40.849+0000 INFO  [o.n.k.i.s.RelationshipTypeTokenStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db] high id=0 (defragged=0)
+2016-04-08 17:20:40.857+0000 INFO  [o.n.k.i.s.RelationshipTypeTokenStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db rebuild id generator, highId=0 defragged count=0
+2016-04-08 17:20:41.135+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db.names] ...
+2016-04-08 17:20:41.313+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db.names] high id=6 (defragged=0)
+2016-04-08 17:20:41.321+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db.names rebuild id generator, highId=6 defragged count=0
+2016-04-08 17:20:41.330+0000 INFO  [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db] ...
+2016-04-08 17:20:41.524+0000 INFO  [o.n.k.i.s.LabelTokenStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db] high id=5 (defragged=0)
+2016-04-08 17:20:41.535+0000 INFO  [o.n.k.i.s.LabelTokenStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db rebuild id generator, highId=5 defragged count=0
+2016-04-08 17:20:41.702+0000 INFO  [o.n.k.i.s.SchemaStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.schemastore.db] ...
+2016-04-08 17:20:41.865+0000 INFO  [o.n.k.i.s.SchemaStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.schemastore.db] high id=1 (defragged=0)
+2016-04-08 17:20:41.877+0000 INFO  [o.n.k.i.s.SchemaStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2016-04-08 17:20:41.886+0000 INFO  [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipgroupstore.db] ...
+2016-04-08 17:20:42.024+0000 INFO  [o.n.k.i.s.RelationshipGroupStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2016-04-08 17:20:42.033+0000 INFO  [o.n.k.i.s.RelationshipGroupStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2016-04-08 17:20:42.043+0000 INFO  [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore] ...
+2016-04-08 17:20:42.190+0000 INFO  [o.n.k.i.s.MetaDataStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore] high id=13 (defragged=0)
+2016-04-08 17:20:42.199+0000 INFO  [o.n.k.i.s.MetaDataStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore rebuild id generator, highId=13 defragged count=0
+2016-04-08 17:20:42.286+0000 INFO  [o.n.k.KernelHealth] Kernel health set to OK
+2016-04-08 17:20:51.588+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2016-04-08 17:20:51.599+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] Database is now ready
+2016-04-08 17:20:51.615+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2016-04-08 17:20:51.623+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: Community StoreId{creationTime=1457552802092, randomId=1977946274690558294, storeVersion=15250506225055238, upgradeTime=1457552802092, upgradeId=1}
+2016-04-08 17:20:51.632+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 2.3.2
+2016-04-08 17:20:51.641+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2016-04-08 17:20:51.658+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2016-04-08 17:20:51.667+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2016-04-08 17:20:51.676+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2016-04-08 17:20:51.685+0000 INFO  [o.n.k.i.DiagnosticsManager] ArrayPropertyStore v0.A.6
+2016-04-08 17:20:51.693+0000 INFO  [o.n.k.i.DiagnosticsManager] NodeStore v0.A.6
+2016-04-08 17:20:51.702+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 17:20:51.711+0000 INFO  [o.n.k.i.DiagnosticsManager] PropertyIndexStore v0.A.6
+2016-04-08 17:20:51.719+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 17:20:51.728+0000 INFO  [o.n.k.i.DiagnosticsManager] ArrayPropertyStore v0.A.6
+2016-04-08 17:20:51.737+0000 INFO  [o.n.k.i.DiagnosticsManager] PropertyStore v0.A.6
+2016-04-08 17:20:51.745+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipStore v0.A.6
+2016-04-08 17:20:51.754+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 17:20:51.762+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipTypeStore v0.A.6
+2016-04-08 17:20:51.770+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-08 17:20:51.779+0000 INFO  [o.n.k.i.DiagnosticsManager] LabelTokenStore v0.A.6
+2016-04-08 17:20:51.789+0000 INFO  [o.n.k.i.DiagnosticsManager] SchemaStore v0.A.6
+2016-04-08 17:20:51.797+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipGroupStore v0.A.6
+2016-04-08 17:20:51.806+0000 INFO  [o.n.k.i.DiagnosticsManager] NeoStore v0.A.6
+2016-04-08 17:20:51.814+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2016-04-08 17:20:51.823+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2016-04-08 17:20:51.831+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2016-04-08 17:20:51.840+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2016-04-08 17:20:51.849+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.6: used=1 high=0
+2016-04-08 17:20:51.858+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.6: used=994 high=993
+2016-04-08 17:20:51.867+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=11 high=10
+2016-04-08 17:20:51.876+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.6: used=10 high=9
+2016-04-08 17:20:51.885+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-08 17:20:51.894+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.6: used=1 high=0
+2016-04-08 17:20:51.903+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.6: used=1771 high=1770
+2016-04-08 17:20:51.913+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.6: used=0 high=-1
+2016-04-08 17:20:51.922+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-08 17:20:51.930+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.6: used=0 high=-1
+2016-04-08 17:20:51.939+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=6 high=5
+2016-04-08 17:20:51.948+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.6: used=5 high=4
+2016-04-08 17:20:51.957+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.6: used=1 high=0
+2016-04-08 17:20:51.966+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.6: used=1 high=0
+2016-04-08 17:20:51.974+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.6: used=13 high=12
+2016-04-08 17:20:51.983+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2016-04-08 17:20:51.992+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2016-04-08 17:20:52.001+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2016-04-08 17:20:52.011+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1457552802092
+2016-04-08 17:20:52.020+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 1977946274690558294
+2016-04-08 17:20:52.028+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2016-04-08 17:20:52.037+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 353
+2016-04-08 17:20:52.046+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15250506225055238
+2016-04-08 17:20:52.054+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2016-04-08 17:20:52.063+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2016-04-08 17:20:52.071+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2016-04-08 17:20:52.079+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1457552802092
+2016-04-08 17:20:52.088+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -159003979534
+2016-04-08 17:20:52.096+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2016-04-08 17:20:52.105+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2016-04-08 17:20:52.113+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 577021
+2016-04-08 17:20:52.122+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2016-04-08 17:20:52.133+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2016-04-08 17:20:52.142+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2016-04-08 17:20:52.157+0000 INFO  [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2016-04-08 17:20:52.165+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2016-04-08 17:20:52.175+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2016-04-08 17:20:52.188+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 319021903872 / 108269539328 / 33
+Storage files: (filename : modification date - size)
+2016-04-08 17:20:52.209+0000 INFO  [o.n.k.i.DiagnosticsManager]   dbms:
+2016-04-08 17:20:52.219+0000 INFO  [o.n.k.i.DiagnosticsManager]     auth: 2016-03-16T22:49:25+0000 - 138.00 B
+2016-04-08 17:20:52.228+0000 INFO  [o.n.k.i.DiagnosticsManager]     ssl:
+2016-04-08 17:20:52.238+0000 INFO  [o.n.k.i.DiagnosticsManager]       snakeoil.cert: 2016-03-16T22:49:25+0000 - 640.00 B
+2016-04-08 17:20:52.250+0000 INFO  [o.n.k.i.DiagnosticsManager]       snakeoil.key: 2016-03-16T22:49:25+0000 - 928.00 B
+2016-04-08 17:20:52.259+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2016-04-08T18:17:45+0100 - 1.53 kB
+2016-04-08 17:20:52.271+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-04-08T18:17:45+0100 - 1.67 kB
+2016-04-08 17:20:52.282+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2016-04-08 17:20:52.291+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-03-16T22:53:01+0000 - 0.00 B
+2016-04-08 17:20:52.301+0000 INFO  [o.n.k.i.DiagnosticsManager]   messages.log: 2016-04-08T17:06:27+0100 - 569.66 kB
+2016-04-08 17:20:52.311+0000 INFO  [o.n.k.i.DiagnosticsManager]   neo4j.properties: 2016-03-16T22:49:25+0000 - 1.30 kB
+2016-04-08 17:20:52.321+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2016-04-08T17:06:26+0100 - 8.00 kB
+2016-04-08 17:20:52.331+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2016-04-08T17:06:26+0100 - 192.00 B
+2016-04-08 17:20:52.341+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2016-04-08T17:01:26+0100 - 192.00 B
+2016-04-08 17:20:52.350+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2016-04-08T18:20:42+0100 - 9.00 B
+2016-04-08 17:20:52.380+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2016-04-08T16:41:23+0100 - 8.00 kB
+2016-04-08 17:20:52.393+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2016-04-08T18:20:41+0100 - 9.00 B
+2016-04-08 17:20:52.407+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2016-04-07T18:28:36+0100 - 8.00 kB
+2016-04-08 17:20:52.420+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2016-04-08T18:20:41+0100 - 9.00 B
+2016-04-08 17:20:52.432+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2016-04-08T17:06:26+0100 - 16.00 kB
+2016-04-08 17:20:52.445+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2016-04-08T18:20:39+0100 - 9.00 B
+2016-04-08 17:20:52.456+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-08 17:20:52.465+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2016-04-08T18:20:38+0100 - 9.00 B
+2016-04-08 17:20:52.476+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2016-04-08T17:06:26+0100 - 71.71 kB
+2016-04-08 17:20:52.486+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-08 17:20:52.496+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2016-04-08T18:20:39+0100 - 9.00 B
+2016-04-08 17:20:52.506+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2016-04-08T18:20:40+0100 - 9.00 B
+2016-04-08 17:20:52.528+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2016-04-08T16:51:25+0100 - 8.00 kB
+2016-04-08 17:20:52.538+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2016-04-08T18:20:39+0100 - 9.00 B
+2016-04-08 17:20:52.547+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2016-04-08T16:51:25+0100 - 8.00 kB
+2016-04-08 17:20:52.559+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2016-04-08T18:20:39+0100 - 9.00 B
+2016-04-08 17:20:52.572+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-08 17:20:52.582+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2016-04-08T18:20:39+0100 - 9.00 B
+2016-04-08 17:20:52.591+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-08 17:20:52.601+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2016-04-08T18:20:41+0100 - 9.00 B
+2016-04-08 17:20:52.611+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2016-03-16T22:49:25+0000 - 0.00 B
+2016-04-08 17:20:52.621+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2016-04-08T18:20:40+0100 - 9.00 B
+2016-04-08 17:20:52.632+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2016-04-08T16:41:23+0100 - 8.00 kB
+2016-04-08 17:20:52.641+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2016-04-08T18:20:41+0100 - 9.00 B
+2016-04-08 17:20:52.651+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-08 17:20:52.660+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2016-04-08T18:20:40+0100 - 9.00 B
+2016-04-08 17:20:52.669+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-08 17:20:52.680+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2016-04-08T18:20:41+0100 - 9.00 B
+2016-04-08 17:20:52.689+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2016-04-08T17:06:26+0100 - 563.51 kB
+2016-04-08 17:20:52.698+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2016-04-08 17:20:52.708+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2016-04-08 17:20:52.717+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2016-04-08 17:20:52.727+0000 INFO  [o.n.k.i.DiagnosticsManager]         _hi.cfs: 2016-04-08T17:04:24+0100 - 880.00 B
+2016-04-08 17:20:52.736+0000 INFO  [o.n.k.i.DiagnosticsManager]         segments.gen: 2016-04-08T17:06:26+0100 - 20.00 B
+2016-04-08 17:20:52.746+0000 INFO  [o.n.k.i.DiagnosticsManager]         segments_1v: 2016-04-08T17:06:26+0100 - 257.00 B
+2016-04-08 17:20:52.756+0000 INFO  [o.n.k.i.DiagnosticsManager]         write.lock: 2016-04-07T18:06:44+0100 - 0.00 B
+2016-04-08 17:20:52.765+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2016-04-08T18:20:37+0100 - 1.13 kB
+2016-04-08 17:20:52.775+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2016-04-08T18:17:45+0100 - 1.13 kB
+2016-04-08 17:20:52.784+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-04-08T18:17:45+0100 - 1.13 kB
+2016-04-08 17:20:52.794+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2016-03-16T22:49:25+0000 - 0.00 B
+2016-04-08 17:20:52.803+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2016-04-08 17:21:13.966+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2016-04-08 17:21:28.994+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2016-04-08 17:35:22.533+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 718383ms.
+2016-04-08 18:32:43.940+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1042ms.
+2016-04-08 18:47:08.898+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 423ms.
+2016-04-08 18:56:47.282+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 353ms.
+2016-04-08 19:06:10.402+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 563ms.
+2016-04-08 19:15:41.575+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 249ms.
+2016-04-08 19:25:17.587+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 861ms.
+2016-04-08 19:32:44.994+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1028ms.
+2016-04-08 19:34:57.905+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 511ms.
+2016-04-08 20:03:40.267+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 733ms.
+2016-04-08 20:13:06.817+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 354ms.
+2016-04-08 20:22:46.881+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 402ms.
+2016-04-08 20:32:21.538+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 793ms.
+2016-04-08 20:32:45.601+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 503ms.
+2016-04-08 20:41:48.682+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 270ms.
+2016-04-08 20:51:17.532+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 413ms.
+2016-04-08 21:00:53.062+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 896ms.
+2016-04-08 21:10:20.402+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 938ms.
+2016-04-08 21:29:17.372+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 675ms.
+2016-04-08 21:32:45.969+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 306ms.
+2016-04-08 21:38:39.179+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 540ms.
+2016-04-08 21:48:09.040+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 568ms.
+2016-04-08 21:57:35.573+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 569ms.
+2016-04-08 22:16:31.730+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 870ms.
+2016-04-08 22:26:04.676+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 749ms.
+2016-04-08 22:32:46.344+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 286ms.
+2016-04-08 22:35:39.924+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 557ms.
+2016-04-08 22:45:12.757+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 824ms.
+2016-04-08 22:54:45.530+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 416ms.
+2016-04-08 23:04:26.660+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 792ms.
+2016-04-08 23:23:19.129+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 726ms.
+2016-04-08 23:32:46.721+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 293ms.
+2016-04-08 23:32:49.917+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 466ms.
+2016-04-08 23:42:25.205+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 784ms.
+2016-04-08 23:51:57.821+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 395ms.
+2016-04-09 00:01:32.166+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 327ms.
+2016-04-09 00:11:04.273+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 273ms.
+2016-04-09 00:20:38.932+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 439ms.
+2016-04-09 00:30:11.808+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 358ms.
+2016-04-09 00:32:47.120+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 329ms.
+2016-04-09 18:54:48.189+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] No locking implementation specified, defaulting to 'community'
+2016-04-09 18:54:48.721+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2016-04-09 18:54:48.756+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2016-04-09 18:54:48.779+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2016-04-09 18:54:48.779+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.db.tuning.properties=C:\Users\Keith\Documents\project-template\constituencies.graphdb\neo4j.properties
+2016-04-09 18:54:48.780+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.server.database.location=C:\Users\Keith\Documents\project-template\constituencies.graphdb
+2016-04-09 18:54:48.780+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.querylog.filename=data/log/queries.log
+2016-04-09 18:54:48.781+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_store.location=C:\Users\Keith\Documents\project-template\constituencies.graphdb\.\dbms\auth
+2016-04-09 18:54:48.781+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_certificate_file=C:\Users\Keith\Documents\project-template\constituencies.graphdb\.\dbms\ssl\snakeoil.cert
+2016-04-09 18:54:48.781+0000 INFO  [o.n.k.i.DiagnosticsManager] remote_shell_enabled=true
+2016-04-09 18:54:48.782+0000 INFO  [o.n.k.i.DiagnosticsManager] edition=Community
+2016-04-09 18:54:48.782+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.tls_key_file=C:\Users\Keith\Documents\project-template\constituencies.graphdb\.\dbms\ssl\snakeoil.key
+2016-04-09 18:54:48.782+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2016-04-09 18:54:48.783+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2016-04-09 18:54:48.783+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2016-04-09 18:54:48.783+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2016-04-09 18:54:48.783+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2016-04-09 18:54:48.783+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2016-04-09 18:54:48.784+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2016-04-09 18:54:48.784+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2016-04-09 18:54:48.784+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2016-04-09 18:54:48.784+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2016-04-09 18:54:48.784+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2016-04-09 18:54:48.785+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2016-04-09 18:54:48.798+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 3.89 GB
+2016-04-09 18:54:48.799+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 2.42 GB
+2016-04-09 18:54:48.799+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 160.52 MB
+2016-04-09 18:54:48.800+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 4.57 GB
+2016-04-09 18:54:48.801+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 3.02 GB
+2016-04-09 18:54:48.801+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2016-04-09 18:54:48.802+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 28.21 MB
+2016-04-09 18:54:48.802+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 60.00 MB
+2016-04-09 18:54:48.803+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 885.50 MB
+2016-04-09 18:54:48.903+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2016-04-09 18:54:48.904+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2016-04-09 18:54:48.907+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=1014.69 kB, max=48.00 MB, threshold=0.00 B
+2016-04-09 18:54:48.909+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=16.00 MB, used=7.32 MB, max=327.00 MB, threshold=?
+2016-04-09 18:54:48.910+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=2.50 MB, used=2.48 MB, max=2.50 MB, threshold=?
+2016-04-09 18:54:48.912+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=41.50 MB, used=21.99 MB, max=664.00 MB, threshold=0.00 B
+2016-04-09 18:54:48.914+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Perm Gen (Non-heap memory): committed=21.00 MB, used=20.48 MB, max=82.00 MB, threshold=0.00 B
+2016-04-09 18:54:48.914+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2016-04-09 18:54:48.916+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Windows 8.1; version: 6.3; arch: amd64; cpus: 4
+2016-04-09 18:54:48.988+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 6744@Langan
+2016-04-09 18:54:48.988+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2016-04-09 18:54:48.988+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/London
+2016-04-09 18:54:48.989+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2016-04-09 18:54:48.989+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2016-04-09 18:54:48.989+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2016-04-09 18:54:48.989+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 24.80-b11
+2016-04-09 18:54:48.999+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2016-04-09 18:54:49.000+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dexe4j.semaphoreName=Local\c:_program_files_neo4j_ce_2.3.2_bin_neo4j-ce.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=C:\Program Files\Neo4j CE 2.3.2\bin\neo4j-ce.exe, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git LFS;c:\program files\neo4j ce 2.3.2\jre\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2016-04-09 18:54:49.000+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2016-04-09 18:54:49.009+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/access-bridge-64.jar
+2016-04-09 18:54:49.010+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/dns_sd.jar
+2016-04-09 18:54:49.010+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\charsets.jar
+2016-04-09 18:54:49.010+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/jaccess.jar
+2016-04-09 18:54:49.010+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/sunmscapi.jar
+2016-04-09 18:54:49.010+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 2.3.2\.install4j\i4jruntime.jar
+2016-04-09 18:54:49.010+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/sunjce_provider.jar
+2016-04-09 18:54:49.011+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\resources.jar
+2016-04-09 18:54:49.011+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 2.3.2\bin\neo4j-desktop-2.3.2.jar
+2016-04-09 18:54:49.011+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/bin/
+2016-04-09 18:54:49.011+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\jsse.jar
+2016-04-09 18:54:49.011+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\rt.jar
+2016-04-09 18:54:49.012+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\jce.jar
+2016-04-09 18:54:49.012+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/bin/neo4j-desktop-2.3.2.jar
+2016-04-09 18:54:49.012+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/localedata.jar
+2016-04-09 18:54:49.012+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/.install4j/i4jruntime.jar
+2016-04-09 18:54:49.013+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/zipfs.jar
+2016-04-09 18:54:49.013+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/sunec.jar
+2016-04-09 18:54:49.013+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\jfr.jar
+2016-04-09 18:54:49.013+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Neo4j%20CE%202.3.2/jre/lib/ext/dnsns.jar
+2016-04-09 18:54:49.013+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\classes
+2016-04-09 18:54:49.014+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Neo4j CE 2.3.2\jre\lib\sunrsasign.jar
+2016-04-09 18:54:49.014+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2016-04-09 18:54:49.016+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\ProgramData\Oracle\Java\javapath
+2016-04-09 18:54:49.017+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32
+2016-04-09 18:54:49.018+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows
+2016-04-09 18:54:49.019+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\wbem
+2016-04-09 18:54:49.021+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2016-04-09 18:54:49.022+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Brackets\command
+2016-04-09 18:54:49.024+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn
+2016-04-09 18:54:49.025+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\100\Tools\Binn
+2016-04-09 18:54:49.027+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Microsoft SQL Server\100\DTS\Binn
+2016-04-09 18:54:49.028+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\GtkSharp\2.12\bin
+2016-04-09 18:54:49.029+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit
+2016-04-09 18:54:49.031+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Skype\Phone
+2016-04-09 18:54:49.032+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Git LFS
+2016-04-09 18:54:49.033+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Neo4j CE 2.3.2\jre\bin
+2016-04-09 18:54:49.033+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2016-04-09 18:54:49.034+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = C:\Program Files\Neo4j CE 2.3.2\bin\neo4j-ce.exe
+2016-04-09 18:54:49.034+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.semaphoreName = Local\c:_program_files_neo4j_ce_2.3.2_bin_neo4j-ce.exe
+2016-04-09 18:54:49.035+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = c:\program files\neo4j ce 2.3.2\jre\bin
+2016-04-09 18:54:49.035+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.consoleCodepage = cp0
+2016-04-09 18:54:49.035+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = ;
+2016-04-09 18:54:49.036+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2016-04-09 18:54:49.036+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GB
+2016-04-09 18:54:49.036+0000 INFO  [o.n.k.i.DiagnosticsManager] user.script = 
+2016-04-09 18:54:49.037+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = 
+2016-04-09 18:54:49.037+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = C:\Program Files\Neo4j CE 2.3.2\bin\
+2016-04-09 18:54:49.037+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = C:\Program Files\Neo4j CE 2.3.2\bin
+2016-04-09 18:54:49.037+0000 INFO  [o.n.k.i.DiagnosticsManager] neo4j.ext.udc.source = desktop
+2016-04-09 18:54:49.038+0000 INFO  [o.n.k.i.DiagnosticsManager] user.variant = 
+2016-04-09 18:54:49.038+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.tempDir = 
+2016-04-09 18:54:49.038+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = Cp1252
+2016-04-09 18:54:49.039+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2016-04-09 18:54:49.039+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2016-04-09 18:54:49.039+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2016-04-09 18:54:49.039+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.isInstall4j = true
+2016-04-09 18:54:49.040+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2016-04-09 18:54:49.040+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = C:\Users\Keith
+2016-04-09 18:54:49.040+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/London
+2016-04-09 18:54:49.041+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = Cp1252
+2016-04-09 18:54:49.041+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = Keith
+2016-04-09 18:54:49.041+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = C:\Program Files\Neo4j CE 2.3.2\bin\neo4j-ce.exe
+2016-04-09 18:54:49.042+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2016-04-09 18:54:49.042+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.launchName = C:\Program Files\Neo4j CE 2.3.2\bin\neo4j-ce.exe
+2016-04-09 18:54:49.042+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2016-04-09 18:54:49.042+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2016-04-09 18:54:49.043+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.unextractedPosition = 0
+2016-04-09 18:54:49.043+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = C:\Program Files\Neo4j CE 2.3.2\
+2016-04-09 18:54:49.044+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = \
+2016-04-09 18:54:49.044+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2016-04-09 18:54:49.044+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2016-04-09 18:54:49.045+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.desktop = windows
+2016-04-09 18:54:49.045+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = amd64
+2016-04-09 18:54:49.046+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2016-04-09 18:54:49.128+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Software Loopback Interface 1:
+2016-04-09 18:54:49.130+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2016-04-09 18:54:49.130+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2016-04-09 18:54:49.130+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card:
+2016-04-09 18:54:49.131+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 192.168.0.12
+2016-04-09 18:54:49.131+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:4cbd:8cf:f2f4:7ae3%2
+2016-04-09 18:54:49.131+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2016-04-09 18:54:49.132+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:482:a544:9dba:a7b0%3
+2016-04-09 18:54:49.132+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #2:
+2016-04-09 18:54:49.132+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Kernel Debug Network Adapter:
+2016-04-09 18:54:49.132+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller:
+2016-04-09 18:54:49.133+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:8c7f:a8ff:7b43:1fe9%6
+2016-04-09 18:54:49.133+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter:
+2016-04-09 18:54:49.133+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:0:5efe:c0a8:c%7
+2016-04-09 18:54:49.134+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Teredo Tunneling Pseudo-Interface:
+2016-04-09 18:54:49.134+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 2001:0:9d38:6ab8:34d9:3446:d1f8:7da2
+2016-04-09 18:54:49.134+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:34d9:3446:d1f8:7da2%8
+2016-04-09 18:54:49.135+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #3:
+2016-04-09 18:54:49.135+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-WFP Native MAC Layer LightWeight Filter-0000:
+2016-04-09 18:54:49.135+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000:
+2016-04-09 18:54:49.135+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Realtek PCIe GBE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2016-04-09 18:54:49.136+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card-WFP Native MAC Layer LightWeight Filter-0000:
+2016-04-09 18:54:49.136+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card-Virtual WiFi Filter Driver-0000:
+2016-04-09 18:54:49.136+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card-Native WiFi Filter Driver-0000:
+2016-04-09 18:54:49.136+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card-QoS Packet Scheduler-0000:
+2016-04-09 18:54:49.137+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface 802.11n Wireless LAN Card-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2016-04-09 18:54:49.137+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2016-04-09 18:54:49.137+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2016-04-09 18:54:49.138+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2016-04-09 18:54:49.138+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2016-04-09 18:54:49.138+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2016-04-09 18:54:53.463+0000 INFO  [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db.labels] ...
+2016-04-09 18:54:53.539+0000 INFO  [o.n.k.i.s.DynamicArrayStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db.labels] high id=1 (defragged=0)
+2016-04-09 18:54:53.548+0000 INFO  [o.n.k.i.s.DynamicArrayStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2016-04-09 18:54:53.558+0000 INFO  [o.n.k.i.s.NodeStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db] ...
+2016-04-09 18:54:53.642+0000 INFO  [o.n.k.i.s.NodeStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db] high id=994 (defragged=0)
+2016-04-09 18:54:53.649+0000 INFO  [o.n.k.i.s.NodeStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.nodestore.db rebuild id generator, highId=994 defragged count=0
+2016-04-09 18:54:53.657+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index.keys] ...
+2016-04-09 18:54:53.728+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index.keys] high id=11 (defragged=0)
+2016-04-09 18:54:53.736+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index.keys rebuild id generator, highId=11 defragged count=0
+2016-04-09 18:54:53.744+0000 INFO  [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index] ...
+2016-04-09 18:54:53.816+0000 INFO  [o.n.k.i.s.PropertyKeyTokenStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index] high id=10 (defragged=0)
+2016-04-09 18:54:53.825+0000 INFO  [o.n.k.i.s.PropertyKeyTokenStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.index rebuild id generator, highId=10 defragged count=0
+2016-04-09 18:54:53.938+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.strings] ...
+2016-04-09 18:54:54.050+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.strings] high id=1 (defragged=0)
+2016-04-09 18:54:54.058+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2016-04-09 18:54:54.067+0000 INFO  [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.arrays] ...
+2016-04-09 18:54:54.138+0000 INFO  [o.n.k.i.s.DynamicArrayStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2016-04-09 18:54:54.146+0000 INFO  [o.n.k.i.s.DynamicArrayStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2016-04-09 18:54:54.155+0000 INFO  [o.n.k.i.s.PropertyStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db] ...
+2016-04-09 18:54:54.228+0000 INFO  [o.n.k.i.s.PropertyStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db] high id=1771 (defragged=0)
+2016-04-09 18:54:54.236+0000 INFO  [o.n.k.i.s.PropertyStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.propertystore.db rebuild id generator, highId=1771 defragged count=0
+2016-04-09 18:54:54.246+0000 INFO  [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipstore.db] ...
+2016-04-09 18:54:54.316+0000 INFO  [o.n.k.i.s.RelationshipStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipstore.db] high id=0 (defragged=0)
+2016-04-09 18:54:54.325+0000 INFO  [o.n.k.i.s.RelationshipStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipstore.db rebuild id generator, highId=0 defragged count=0
+2016-04-09 18:54:54.333+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db.names] ...
+2016-04-09 18:54:54.406+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db.names] high id=1 (defragged=0)
+2016-04-09 18:54:54.414+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2016-04-09 18:54:54.423+0000 INFO  [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db] ...
+2016-04-09 18:54:54.495+0000 INFO  [o.n.k.i.s.RelationshipTypeTokenStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db] high id=0 (defragged=0)
+2016-04-09 18:54:54.503+0000 INFO  [o.n.k.i.s.RelationshipTypeTokenStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshiptypestore.db rebuild id generator, highId=0 defragged count=0
+2016-04-09 18:54:54.617+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db.names] ...
+2016-04-09 18:54:54.698+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db.names] high id=6 (defragged=0)
+2016-04-09 18:54:54.706+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db.names rebuild id generator, highId=6 defragged count=0
+2016-04-09 18:54:54.715+0000 INFO  [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db] ...
+2016-04-09 18:54:54.788+0000 INFO  [o.n.k.i.s.LabelTokenStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db] high id=5 (defragged=0)
+2016-04-09 18:54:54.797+0000 INFO  [o.n.k.i.s.LabelTokenStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.labeltokenstore.db rebuild id generator, highId=5 defragged count=0
+2016-04-09 18:54:54.898+0000 INFO  [o.n.k.i.s.SchemaStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.schemastore.db] ...
+2016-04-09 18:54:54.973+0000 INFO  [o.n.k.i.s.SchemaStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.schemastore.db] high id=1 (defragged=0)
+2016-04-09 18:54:54.981+0000 INFO  [o.n.k.i.s.SchemaStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2016-04-09 18:54:54.990+0000 INFO  [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipgroupstore.db] ...
+2016-04-09 18:54:55.061+0000 INFO  [o.n.k.i.s.RelationshipGroupStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2016-04-09 18:54:55.070+0000 INFO  [o.n.k.i.s.RelationshipGroupStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2016-04-09 18:54:55.078+0000 INFO  [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore] ...
+2016-04-09 18:54:55.153+0000 INFO  [o.n.k.i.s.MetaDataStore] [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore] high id=13 (defragged=0)
+2016-04-09 18:54:55.162+0000 INFO  [o.n.k.i.s.MetaDataStore] C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore rebuild id generator, highId=13 defragged count=0
+2016-04-09 18:54:55.199+0000 INFO  [o.n.k.KernelHealth] Kernel health set to OK
+2016-04-09 18:54:59.196+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2016-04-09 18:54:59.206+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] Database is now ready
+2016-04-09 18:54:59.220+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2016-04-09 18:54:59.229+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: Community StoreId{creationTime=1457552802092, randomId=1977946274690558294, storeVersion=15250506225055238, upgradeTime=1457552802092, upgradeId=1}
+2016-04-09 18:54:59.238+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 2.3.2
+2016-04-09 18:54:59.248+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2016-04-09 18:54:59.265+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2016-04-09 18:54:59.275+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2016-04-09 18:54:59.283+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2016-04-09 18:54:59.292+0000 INFO  [o.n.k.i.DiagnosticsManager] ArrayPropertyStore v0.A.6
+2016-04-09 18:54:59.304+0000 INFO  [o.n.k.i.DiagnosticsManager] NodeStore v0.A.6
+2016-04-09 18:54:59.316+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-09 18:54:59.327+0000 INFO  [o.n.k.i.DiagnosticsManager] PropertyIndexStore v0.A.6
+2016-04-09 18:54:59.336+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-09 18:54:59.346+0000 INFO  [o.n.k.i.DiagnosticsManager] ArrayPropertyStore v0.A.6
+2016-04-09 18:54:59.355+0000 INFO  [o.n.k.i.DiagnosticsManager] PropertyStore v0.A.6
+2016-04-09 18:54:59.364+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipStore v0.A.6
+2016-04-09 18:54:59.373+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-09 18:54:59.382+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipTypeStore v0.A.6
+2016-04-09 18:54:59.390+0000 INFO  [o.n.k.i.DiagnosticsManager] StringPropertyStore v0.A.6
+2016-04-09 18:54:59.399+0000 INFO  [o.n.k.i.DiagnosticsManager] LabelTokenStore v0.A.6
+2016-04-09 18:54:59.407+0000 INFO  [o.n.k.i.DiagnosticsManager] SchemaStore v0.A.6
+2016-04-09 18:54:59.416+0000 INFO  [o.n.k.i.DiagnosticsManager] RelationshipGroupStore v0.A.6
+2016-04-09 18:54:59.424+0000 INFO  [o.n.k.i.DiagnosticsManager] NeoStore v0.A.6
+2016-04-09 18:54:59.433+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2016-04-09 18:54:59.443+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2016-04-09 18:54:59.455+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2016-04-09 18:54:59.464+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2016-04-09 18:54:59.473+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.6: used=1 high=0
+2016-04-09 18:54:59.483+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.6: used=994 high=993
+2016-04-09 18:54:59.491+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=11 high=10
+2016-04-09 18:54:59.499+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.6: used=10 high=9
+2016-04-09 18:54:59.508+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-09 18:54:59.517+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.6: used=1 high=0
+2016-04-09 18:54:59.526+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.6: used=1771 high=1770
+2016-04-09 18:54:59.535+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.6: used=0 high=-1
+2016-04-09 18:54:59.544+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=1 high=0
+2016-04-09 18:54:59.553+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.6: used=0 high=-1
+2016-04-09 18:54:59.561+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.6: used=6 high=5
+2016-04-09 18:54:59.570+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.6: used=5 high=4
+2016-04-09 18:54:59.580+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.6: used=1 high=0
+2016-04-09 18:54:59.589+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.6: used=1 high=0
+2016-04-09 18:54:59.597+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.6: used=13 high=12
+2016-04-09 18:54:59.605+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2016-04-09 18:54:59.613+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2016-04-09 18:54:59.623+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2016-04-09 18:54:59.633+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1457552802092
+2016-04-09 18:54:59.642+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 1977946274690558294
+2016-04-09 18:54:59.650+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2016-04-09 18:54:59.660+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 353
+2016-04-09 18:54:59.669+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15250506225055238
+2016-04-09 18:54:59.677+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2016-04-09 18:54:59.686+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2016-04-09 18:54:59.694+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2016-04-09 18:54:59.719+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1457552802092
+2016-04-09 18:54:59.727+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -159003979534
+2016-04-09 18:54:59.736+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2016-04-09 18:54:59.744+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2016-04-09 18:54:59.755+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 577021
+2016-04-09 18:54:59.763+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2016-04-09 18:54:59.772+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2016-04-09 18:54:59.781+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2016-04-09 18:54:59.794+0000 INFO  [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2016-04-09 18:54:59.803+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2016-04-09 18:54:59.812+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2016-04-09 18:54:59.826+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 319021903872 / 107624640512 / 33
+Storage files: (filename : modification date - size)
+2016-04-09 18:54:59.860+0000 INFO  [o.n.k.i.DiagnosticsManager]   dbms:
+2016-04-09 18:54:59.896+0000 INFO  [o.n.k.i.DiagnosticsManager]     auth: 2016-03-16T22:49:25+0000 - 138.00 B
+2016-04-09 18:54:59.908+0000 INFO  [o.n.k.i.DiagnosticsManager]     ssl:
+2016-04-09 18:54:59.918+0000 INFO  [o.n.k.i.DiagnosticsManager]       snakeoil.cert: 2016-03-16T22:49:25+0000 - 640.00 B
+2016-04-09 18:54:59.929+0000 INFO  [o.n.k.i.DiagnosticsManager]       snakeoil.key: 2016-03-16T22:49:25+0000 - 928.00 B
+2016-04-09 18:54:59.939+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2016-04-08T18:17:45+0100 - 1.53 kB
+2016-04-09 18:54:59.949+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-04-08T18:17:45+0100 - 1.67 kB
+2016-04-09 18:54:59.957+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2016-04-09 18:54:59.967+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-03-16T22:53:01+0000 - 0.00 B
+2016-04-09 18:54:59.977+0000 INFO  [o.n.k.i.DiagnosticsManager]   messages.log: 2016-04-09T19:54:59+0100 - 615.08 kB
+2016-04-09 18:54:59.986+0000 INFO  [o.n.k.i.DiagnosticsManager]   neo4j.properties: 2016-03-16T22:49:25+0000 - 1.30 kB
+2016-04-09 18:54:59.995+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2016-04-08T17:06:26+0100 - 8.00 kB
+2016-04-09 18:55:00.006+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2016-04-08T17:06:26+0100 - 192.00 B
+2016-04-09 18:55:00.017+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2016-04-08T17:01:26+0100 - 192.00 B
+2016-04-09 18:55:00.026+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2016-04-09T19:54:55+0100 - 9.00 B
+2016-04-09 18:55:00.048+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2016-04-08T16:41:23+0100 - 8.00 kB
+2016-04-09 18:55:00.058+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2016-04-09T19:54:54+0100 - 9.00 B
+2016-04-09 18:55:00.067+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2016-04-07T18:28:36+0100 - 8.00 kB
+2016-04-09 18:55:00.077+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2016-04-09T19:54:54+0100 - 9.00 B
+2016-04-09 18:55:00.087+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2016-04-08T17:06:26+0100 - 16.00 kB
+2016-04-09 18:55:00.096+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2016-04-09T19:54:53+0100 - 9.00 B
+2016-04-09 18:55:00.105+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-09 18:55:00.115+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2016-04-09T19:54:53+0100 - 9.00 B
+2016-04-09 18:55:00.125+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2016-04-08T17:06:26+0100 - 71.71 kB
+2016-04-09 18:55:00.134+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-09 18:55:00.143+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2016-04-09T19:54:54+0100 - 9.00 B
+2016-04-09 18:55:00.153+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2016-04-09T19:54:54+0100 - 9.00 B
+2016-04-09 18:55:00.164+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2016-04-08T16:51:25+0100 - 8.00 kB
+2016-04-09 18:55:00.174+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2016-04-09T19:54:53+0100 - 9.00 B
+2016-04-09 18:55:00.184+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2016-04-08T16:51:25+0100 - 8.00 kB
+2016-04-09 18:55:00.194+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2016-04-09T19:54:53+0100 - 9.00 B
+2016-04-09 18:55:00.207+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-09 18:55:00.218+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2016-04-09T19:54:53+0100 - 9.00 B
+2016-04-09 18:55:00.228+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-09 18:55:00.237+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2016-04-09T19:54:55+0100 - 9.00 B
+2016-04-09 18:55:00.248+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2016-03-16T22:49:25+0000 - 0.00 B
+2016-04-09 18:55:00.258+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2016-04-09T19:54:54+0100 - 9.00 B
+2016-04-09 18:55:00.269+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2016-04-08T16:41:23+0100 - 8.00 kB
+2016-04-09 18:55:00.280+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2016-04-09T19:54:54+0100 - 9.00 B
+2016-04-09 18:55:00.289+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-09 18:55:00.299+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2016-04-09T19:54:54+0100 - 9.00 B
+2016-04-09 18:55:00.308+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2016-03-16T22:49:25+0000 - 8.00 kB
+2016-04-09 18:55:00.317+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2016-04-09T19:54:54+0100 - 9.00 B
+2016-04-09 18:55:00.327+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2016-04-08T17:06:26+0100 - 563.51 kB
+2016-04-09 18:55:00.335+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2016-04-09 18:55:00.344+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2016-04-09 18:55:00.354+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2016-04-09 18:55:00.364+0000 INFO  [o.n.k.i.DiagnosticsManager]         _hi.cfs: 2016-04-08T17:04:24+0100 - 880.00 B
+2016-04-09 18:55:00.373+0000 INFO  [o.n.k.i.DiagnosticsManager]         segments.gen: 2016-04-08T17:06:26+0100 - 20.00 B
+2016-04-09 18:55:00.383+0000 INFO  [o.n.k.i.DiagnosticsManager]         segments_1v: 2016-04-08T17:06:26+0100 - 257.00 B
+2016-04-09 18:55:00.392+0000 INFO  [o.n.k.i.DiagnosticsManager]         write.lock: 2016-04-07T18:06:44+0100 - 0.00 B
+2016-04-09 18:55:00.401+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2016-04-08T18:20:37+0100 - 1.13 kB
+2016-04-09 18:55:00.411+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2016-04-08T18:17:45+0100 - 1.13 kB
+2016-04-09 18:55:00.420+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-04-08T18:17:45+0100 - 1.13 kB
+2016-04-09 18:55:00.430+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2016-03-16T22:49:25+0000 - 0.00 B
+2016-04-09 18:55:00.439+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2016-04-09 18:55:07.463+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2016-04-09 18:55:14.519+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2016-04-09 19:12:25.293+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [355]:  Starting check pointing...
+2016-04-09 19:12:25.302+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [355]:  Starting store flush...
+2016-04-09 19:12:25.327+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 355 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 19:12:25.378+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 355 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 19:12:25.545+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [355]:  Store flush completed
+2016-04-09 19:12:25.553+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [355]:  Starting appending check point entry into the tx log...
+2016-04-09 19:12:25.594+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [355]:  Appending check point entry into the tx log completed
+2016-04-09 19:12:25.602+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [355]:  Check pointing completed
+2016-04-09 19:12:25.613+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 19:12:25.621+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 19:12:44.952+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH a -[r]- b WHERE id(a) IN[47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71]
+AND id(b) IN[47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71]
+RETURN r;
+2016-04-09 19:12:44.970+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15), Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23), Parameter(  AUTOINT24)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT25), Parameter(  AUTOINT26), Parameter(  AUTOINT27), Parameter(  AUTOINT28), Parameter(  AUTOINT29), Parameter(  AUTOINT30), Parameter(  AUTOINT31), Parameter(  AUTOINT32), Parameter(  AUTOINT33), Parameter(  AUTOINT34), Parameter(  AUTOINT35), Parameter(  AUTOINT36), Parameter(  AUTOINT37), Parameter(  AUTOINT38), Parameter(  AUTOINT39), Parameter(  AUTOINT40), Parameter(  AUTOINT41), Parameter(  AUTOINT42), Parameter(  AUTOINT43), Parameter(  AUTOINT44), Parameter(  AUTOINT45), Parameter(  AUTOINT46), Parameter(  AUTOINT47), Parameter(  AUTOINT48), Parameter(  AUTOINT49)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 19:17:25.661+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [357]:  Starting check pointing...
+2016-04-09 19:17:25.672+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [357]:  Starting store flush...
+2016-04-09 19:17:25.683+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 357 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 19:17:25.723+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 357 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 19:17:25.834+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [357]:  Store flush completed
+2016-04-09 19:17:25.843+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [357]:  Starting appending check point entry into the tx log...
+2016-04-09 19:17:25.891+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [357]:  Appending check point entry into the tx log completed
+2016-04-09 19:17:25.900+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [357]:  Check pointing completed
+2016-04-09 19:17:25.909+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 19:17:25.918+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 19:49:56.104+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [358]:  Starting check pointing...
+2016-04-09 19:49:56.142+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [358]:  Starting store flush...
+2016-04-09 19:49:56.153+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 358 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 19:49:56.179+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 358 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 19:49:56.278+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [358]:  Store flush completed
+2016-04-09 19:49:56.287+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [358]:  Starting appending check point entry into the tx log...
+2016-04-09 19:49:56.337+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [358]:  Appending check point entry into the tx log completed
+2016-04-09 19:49:56.347+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [358]:  Check pointing completed
+2016-04-09 19:49:56.356+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 19:49:56.366+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 19:50:17.369+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15), Parameter(  AUTOINT16)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23), Parameter(  AUTOINT24), Parameter(  AUTOINT25), Parameter(  AUTOINT26), Parameter(  AUTOINT27), Parameter(  AUTOINT28), Parameter(  AUTOINT29), Parameter(  AUTOINT30), Parameter(  AUTOINT31), Parameter(  AUTOINT32), Parameter(  AUTOINT33)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 19:51:45.440+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15), Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23), Parameter(  AUTOINT24), Parameter(  AUTOINT25), Parameter(  AUTOINT26), Parameter(  AUTOINT27), Parameter(  AUTOINT28), Parameter(  AUTOINT29), Parameter(  AUTOINT30), Parameter(  AUTOINT31), Parameter(  AUTOINT32), Parameter(  AUTOINT33), Parameter(  AUTOINT34), Parameter(  AUTOINT35), Parameter(  AUTOINT36), Parameter(  AUTOINT37)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 19:54:57.313+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [365]:  Starting check pointing...
+2016-04-09 19:54:57.325+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1080ms.
+2016-04-09 19:54:57.333+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [365]:  Starting store flush...
+2016-04-09 19:54:57.343+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 365 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 19:54:57.367+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 365 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 19:54:57.471+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [365]:  Store flush completed
+2016-04-09 19:54:57.479+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [365]:  Starting appending check point entry into the tx log...
+2016-04-09 19:54:57.518+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [365]:  Appending check point entry into the tx log completed
+2016-04-09 19:54:57.525+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [365]:  Check pointing completed
+2016-04-09 19:54:57.532+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 19:54:57.540+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 19:56:31.672+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23), Parameter(  AUTOINT24), Parameter(  AUTOINT25), Parameter(  AUTOINT26), Parameter(  AUTOINT27), Parameter(  AUTOINT28), Parameter(  AUTOINT29), Parameter(  AUTOINT30), Parameter(  AUTOINT31)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 19:58:58.421+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15), Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 19:59:57.557+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [371]:  Starting check pointing...
+2016-04-09 19:59:57.567+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [371]:  Starting store flush...
+2016-04-09 19:59:57.578+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 371 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 19:59:57.646+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 371 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 19:59:57.736+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [371]:  Store flush completed
+2016-04-09 19:59:57.749+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [371]:  Starting appending check point entry into the tx log...
+2016-04-09 19:59:57.793+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [371]:  Appending check point entry into the tx log completed
+2016-04-09 19:59:57.803+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [371]:  Check pointing completed
+2016-04-09 19:59:57.813+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 19:59:57.824+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 20:00:28.405+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH a -[r]- b WHERE id(a) IN[5,6,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+AND id(b) IN[5,6,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+RETURN r;
+2016-04-09 20:00:28.420+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15), Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23), Parameter(  AUTOINT24)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT25), Parameter(  AUTOINT26), Parameter(  AUTOINT27), Parameter(  AUTOINT28), Parameter(  AUTOINT29), Parameter(  AUTOINT30), Parameter(  AUTOINT31), Parameter(  AUTOINT32), Parameter(  AUTOINT33), Parameter(  AUTOINT34), Parameter(  AUTOINT35), Parameter(  AUTOINT36), Parameter(  AUTOINT37), Parameter(  AUTOINT38), Parameter(  AUTOINT39), Parameter(  AUTOINT40), Parameter(  AUTOINT41), Parameter(  AUTOINT42), Parameter(  AUTOINT43), Parameter(  AUTOINT44), Parameter(  AUTOINT45), Parameter(  AUTOINT46), Parameter(  AUTOINT47), Parameter(  AUTOINT48), Parameter(  AUTOINT49)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 20:04:57.851+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [375]:  Starting check pointing...
+2016-04-09 20:04:57.860+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [375]:  Starting store flush...
+2016-04-09 20:04:57.869+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 375 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 20:04:57.900+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 375 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 20:04:58.009+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [375]:  Store flush completed
+2016-04-09 20:04:58.023+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [375]:  Starting appending check point entry into the tx log...
+2016-04-09 20:04:58.076+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [375]:  Appending check point entry into the tx log completed
+2016-04-09 20:04:58.090+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [375]:  Check pointing completed
+2016-04-09 20:04:58.100+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 20:04:58.113+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 20:05:19.020+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15), Parameter(  AUTOINT16)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23), Parameter(  AUTOINT24), Parameter(  AUTOINT25), Parameter(  AUTOINT26), Parameter(  AUTOINT27), Parameter(  AUTOINT28), Parameter(  AUTOINT29), Parameter(  AUTOINT30), Parameter(  AUTOINT31), Parameter(  AUTOINT32), Parameter(  AUTOINT33)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 20:05:59.558+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15), Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23), Parameter(  AUTOINT24), Parameter(  AUTOINT25)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 20:09:58.138+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [378]:  Starting check pointing...
+2016-04-09 20:09:58.148+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [378]:  Starting store flush...
+2016-04-09 20:09:58.159+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 378 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 20:09:58.195+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 378 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 20:09:58.315+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [378]:  Store flush completed
+2016-04-09 20:09:58.326+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [378]:  Starting appending check point entry into the tx log...
+2016-04-09 20:09:58.373+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [378]:  Appending check point entry into the tx log completed
+2016-04-09 20:09:58.387+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [378]:  Check pointing completed
+2016-04-09 20:09:58.398+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 20:09:58.410+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 20:14:58.435+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [381]:  Starting check pointing...
+2016-04-09 20:14:58.451+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [381]:  Starting store flush...
+2016-04-09 20:14:58.469+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 381 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 20:14:58.511+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 381 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 20:14:58.619+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [381]:  Store flush completed
+2016-04-09 20:14:58.629+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [381]:  Starting appending check point entry into the tx log...
+2016-04-09 20:14:58.680+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [381]:  Appending check point entry into the tx log completed
+2016-04-09 20:14:58.691+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [381]:  Check pointing completed
+2016-04-09 20:14:58.704+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 20:14:58.714+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 20:19:58.741+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [383]:  Starting check pointing...
+2016-04-09 20:19:58.751+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [383]:  Starting store flush...
+2016-04-09 20:19:58.761+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 383 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 20:19:58.789+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 383 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 20:19:58.864+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [383]:  Store flush completed
+2016-04-09 20:19:58.872+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [383]:  Starting appending check point entry into the tx log...
+2016-04-09 20:19:58.923+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [383]:  Appending check point entry into the tx log completed
+2016-04-09 20:19:58.931+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [383]:  Check pointing completed
+2016-04-09 20:19:58.941+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 20:19:58.950+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 20:22:16.883+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23), Parameter(  AUTOINT24), Parameter(  AUTOINT25), Parameter(  AUTOINT26), Parameter(  AUTOINT27), Parameter(  AUTOINT28), Parameter(  AUTOINT29), Parameter(  AUTOINT30), Parameter(  AUTOINT31)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 20:24:58.974+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [386]:  Starting check pointing...
+2016-04-09 20:24:58.984+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [386]:  Starting store flush...
+2016-04-09 20:24:58.995+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 386 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 20:24:59.028+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 386 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 20:24:59.142+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [386]:  Store flush completed
+2016-04-09 20:24:59.157+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [386]:  Starting appending check point entry into the tx log...
+2016-04-09 20:24:59.211+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [386]:  Appending check point entry into the tx log completed
+2016-04-09 20:24:59.222+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [386]:  Check pointing completed
+2016-04-09 20:24:59.236+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 20:24:59.247+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 20:29:59.268+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [389]:  Starting check pointing...
+2016-04-09 20:29:59.283+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [389]:  Starting store flush...
+2016-04-09 20:29:59.298+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 389 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 20:29:59.336+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 389 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 20:29:59.445+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [389]:  Store flush completed
+2016-04-09 20:29:59.458+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [389]:  Starting appending check point entry into the tx log...
+2016-04-09 20:29:59.501+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [389]:  Appending check point entry into the tx log completed
+2016-04-09 20:29:59.515+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [389]:  Check pointing completed
+2016-04-09 20:29:59.529+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 20:29:59.541+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 20:32:00.504+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT15), Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23), Parameter(  AUTOINT24), Parameter(  AUTOINT25), Parameter(  AUTOINT26), Parameter(  AUTOINT27), Parameter(  AUTOINT28), Parameter(  AUTOINT29)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 20:33:25.506+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15), Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 20:34:59.564+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [391]:  Starting check pointing...
+2016-04-09 20:34:59.574+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [391]:  Starting store flush...
+2016-04-09 20:34:59.585+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 391 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 20:34:59.616+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 391 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 20:34:59.786+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [391]:  Store flush completed
+2016-04-09 20:34:59.797+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [391]:  Starting appending check point entry into the tx log...
+2016-04-09 20:34:59.840+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [391]:  Appending check point entry into the tx log completed
+2016-04-09 20:34:59.851+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [391]:  Check pointing completed
+2016-04-09 20:34:59.862+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 20:34:59.872+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 20:39:59.895+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [393]:  Starting check pointing...
+2016-04-09 20:39:59.904+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [393]:  Starting store flush...
+2016-04-09 20:39:59.915+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 393 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 20:39:59.941+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 393 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a].
+2016-04-09 20:40:00.111+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [393]:  Store flush completed
+2016-04-09 20:40:00.124+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [393]:  Starting appending check point entry into the tx log...
+2016-04-09 20:40:00.163+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [393]:  Appending check point entry into the tx log completed
+2016-04-09 20:40:00.172+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [393]:  Check pointing completed
+2016-04-09 20:40:00.184+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 20:40:00.192+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 20:41:52.302+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15), Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 20:45:00.213+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [395]:  Starting check pointing...
+2016-04-09 20:45:00.223+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [395]:  Starting store flush...
+2016-04-09 20:45:00.234+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 395 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 20:45:00.268+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 395 to [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.a], from [C:\Users\Keith\Documents\project-template\constituencies.graphdb\neostore.counts.db.b].
+2016-04-09 20:45:00.350+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [395]:  Store flush completed
+2016-04-09 20:45:00.364+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [395]:  Starting appending check point entry into the tx log...
+2016-04-09 20:45:00.417+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [395]:  Appending check point entry into the tx log completed
+2016-04-09 20:45:00.432+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [395]:  Check pointing completed
+2016-04-09 20:45:00.446+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 20:45:00.456+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 20:54:58.451+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1123ms.
+2016-04-09 21:02:54.472+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH a -[r]- b WHERE id(a) IN[47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71]
+AND id(b) IN[47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71]
+RETURN r;
+2016-04-09 21:02:54.487+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15), Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23), Parameter(  AUTOINT24)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT25), Parameter(  AUTOINT26), Parameter(  AUTOINT27), Parameter(  AUTOINT28), Parameter(  AUTOINT29), Parameter(  AUTOINT30), Parameter(  AUTOINT31), Parameter(  AUTOINT32), Parameter(  AUTOINT33), Parameter(  AUTOINT34), Parameter(  AUTOINT35), Parameter(  AUTOINT36), Parameter(  AUTOINT37), Parameter(  AUTOINT38), Parameter(  AUTOINT39), Parameter(  AUTOINT40), Parameter(  AUTOINT41), Parameter(  AUTOINT42), Parameter(  AUTOINT43), Parameter(  AUTOINT44), Parameter(  AUTOINT45), Parameter(  AUTOINT46), Parameter(  AUTOINT47), Parameter(  AUTOINT48), Parameter(  AUTOINT49)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 21:03:55.961+0000 INFO  [o.n.c.i.ServerExecutionEngine] Discarded stale query from the query cache: CYPHER 2.3 MATCH a -[r]- b WHERE id(a) IN[47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,328,329,330,331,332,333,334,335,336,337,338,339,340,341,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,437,438,439,440,441,442,443,444,445,446,447,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,839,840,841,842,843,844,845,846,847,848,849,850,851,852,853,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874,875,876,877,878,879,880,881,882,883,884,885,886,887,888,889,890,891,892,893,894,895,896,897,898,899,900,901,902,903,904,905,931,932,933,934,935,936,937,938,939,940,941,942,943,944,945,946,947,948,949,950,951,952,953,954,955,956,957,958,959,960,961,962,963,964,965,966,967,968,969,970,971,972,973,974,975,976,977,978,979,980,981,982,983,984,985,986,987,988,989,990,991,992,993]
+AND id(b) IN[47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,328,329,330,331,332,333,334,335,336,337,338,339,340,341,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,437,438,439,440,441,442,443,444,445,446,447,512,513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,728,729,730,731,732,733,734,735,736,737,738,739,740,741,742,743,744,745,746,747,748,749,750,751,752,753,754,755,756,757,758,759,760,761,762,763,764,765,766,767,768,769,770,771,772,773,774,775,776,777,778,779,780,781,782,783,784,785,839,840,841,842,843,844,845,846,847,848,849,850,851,852,853,854,855,856,857,858,859,860,861,862,863,864,865,866,867,868,869,870,871,872,873,874,875,876,877,878,879,880,881,882,883,884,885,886,887,888,889,890,891,892,893,894,895,896,897,898,899,900,901,902,903,904,905,931,932,933,934,935,936,937,938,939,940,941,942,943,944,945,946,947,948,949,950,951,952,953,954,955,956,957,958,959,960,961,962,963,964,965,966,967,968,969,970,971,972,973,974,975,976,977,978,979,980,981,982,983,984,985,986,987,988,989,990,991,992,993]
+RETURN r;
+2016-04-09 21:03:55.989+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,true),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(b)),List(),None,true))))),List(),Some(Where(And(In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Collection(List(Parameter(  AUTOINT0), Parameter(  AUTOINT1), Parameter(  AUTOINT2), Parameter(  AUTOINT3), Parameter(  AUTOINT4), Parameter(  AUTOINT5), Parameter(  AUTOINT6), Parameter(  AUTOINT7), Parameter(  AUTOINT8), Parameter(  AUTOINT9), Parameter(  AUTOINT10), Parameter(  AUTOINT11), Parameter(  AUTOINT12), Parameter(  AUTOINT13), Parameter(  AUTOINT14), Parameter(  AUTOINT15), Parameter(  AUTOINT16), Parameter(  AUTOINT17), Parameter(  AUTOINT18), Parameter(  AUTOINT19), Parameter(  AUTOINT20), Parameter(  AUTOINT21), Parameter(  AUTOINT22), Parameter(  AUTOINT23), Parameter(  AUTOINT24), Parameter(  AUTOINT25), Parameter(  AUTOINT26), Parameter(  AUTOINT27), Parameter(  AUTOINT28), Parameter(  AUTOINT29), Parameter(  AUTOINT30), Parameter(  AUTOINT31), Parameter(  AUTOINT32), Parameter(  AUTOINT33), Parameter(  AUTOINT34), Parameter(  AUTOINT35), Parameter(  AUTOINT36), Parameter(  AUTOINT37), Parameter(  AUTOINT38), Parameter(  AUTOINT39), Parameter(  AUTOINT40), Parameter(  AUTOINT41), Parameter(  AUTOINT42), Parameter(  AUTOINT43), Parameter(  AUTOINT44), Parameter(  AUTOINT45), Parameter(  AUTOINT46), Parameter(  AUTOINT47), Parameter(  AUTOINT48), Parameter(  AUTOINT49), Parameter(  AUTOINT50), Parameter(  AUTOINT51), Parameter(  AUTOINT52), Parameter(  AUTOINT53), Parameter(  AUTOINT54), Parameter(  AUTOINT55), Parameter(  AUTOINT56), Parameter(  AUTOINT57), Parameter(  AUTOINT58), Parameter(  AUTOINT59), Parameter(  AUTOINT60), Parameter(  AUTOINT61), Parameter(  AUTOINT62), Parameter(  AUTOINT63), Parameter(  AUTOINT64), Parameter(  AUTOINT65), Parameter(  AUTOINT66), Parameter(  AUTOINT67), Parameter(  AUTOINT68), Parameter(  AUTOINT69), Parameter(  AUTOINT70), Parameter(  AUTOINT71), Parameter(  AUTOINT72), Parameter(  AUTOINT73), Parameter(  AUTOINT74), Parameter(  AUTOINT75), Parameter(  AUTOINT76), Parameter(  AUTOINT77), Parameter(  AUTOINT78), Parameter(  AUTOINT79), Parameter(  AUTOINT80), Parameter(  AUTOINT81), Parameter(  AUTOINT82), Parameter(  AUTOINT83), Parameter(  AUTOINT84), Parameter(  AUTOINT85), Parameter(  AUTOINT86), Parameter(  AUTOINT87), Parameter(  AUTOINT88), Parameter(  AUTOINT89), Parameter(  AUTOINT90), Parameter(  AUTOINT91), Parameter(  AUTOINT92), Parameter(  AUTOINT93), Parameter(  AUTOINT94), Parameter(  AUTOINT95), Parameter(  AUTOINT96), Parameter(  AUTOINT97), Parameter(  AUTOINT98), Parameter(  AUTOINT99), Parameter(  AUTOINT100), Parameter(  AUTOINT101), Parameter(  AUTOINT102), Parameter(  AUTOINT103), Parameter(  AUTOINT104), Parameter(  AUTOINT105), Parameter(  AUTOINT106), Parameter(  AUTOINT107), Parameter(  AUTOINT108), Parameter(  AUTOINT109), Parameter(  AUTOINT110), Parameter(  AUTOINT111), Parameter(  AUTOINT112), Parameter(  AUTOINT113), Parameter(  AUTOINT114), Parameter(  AUTOINT115), Parameter(  AUTOINT116), Parameter(  AUTOINT117), Parameter(  AUTOINT118), Parameter(  AUTOINT119), Parameter(  AUTOINT120), Parameter(  AUTOINT121), Parameter(  AUTOINT122), Parameter(  AUTOINT123), Parameter(  AUTOINT124), Parameter(  AUTOINT125), Parameter(  AUTOINT126), Parameter(  AUTOINT127), Parameter(  AUTOINT128), Parameter(  AUTOINT129), Parameter(  AUTOINT130), Parameter(  AUTOINT131), Parameter(  AUTOINT132), Parameter(  AUTOINT133), Parameter(  AUTOINT134), Parameter(  AUTOINT135), Parameter(  AUTOINT136), Parameter(  AUTOINT137), Parameter(  AUTOINT138), Parameter(  AUTOINT139), Parameter(  AUTOINT140), Parameter(  AUTOINT141), Parameter(  AUTOINT142), Parameter(  AUTOINT143), Parameter(  AUTOINT144), Parameter(  AUTOINT145), Parameter(  AUTOINT146), Parameter(  AUTOINT147), Parameter(  AUTOINT148), Parameter(  AUTOINT149), Parameter(  AUTOINT150), Parameter(  AUTOINT151), Parameter(  AUTOINT152), Parameter(  AUTOINT153), Parameter(  AUTOINT154), Parameter(  AUTOINT155), Parameter(  AUTOINT156), Parameter(  AUTOINT157), Parameter(  AUTOINT158), Parameter(  AUTOINT159), Parameter(  AUTOINT160), Parameter(  AUTOINT161), Parameter(  AUTOINT162), Parameter(  AUTOINT163), Parameter(  AUTOINT164), Parameter(  AUTOINT165), Parameter(  AUTOINT166), Parameter(  AUTOINT167), Parameter(  AUTOINT168), Parameter(  AUTOINT169), Parameter(  AUTOINT170), Parameter(  AUTOINT171), Parameter(  AUTOINT172), Parameter(  AUTOINT173), Parameter(  AUTOINT174), Parameter(  AUTOINT175), Parameter(  AUTOINT176), Parameter(  AUTOINT177), Parameter(  AUTOINT178), Parameter(  AUTOINT179), Parameter(  AUTOINT180), Parameter(  AUTOINT181), Parameter(  AUTOINT182), Parameter(  AUTOINT183), Parameter(  AUTOINT184), Parameter(  AUTOINT185), Parameter(  AUTOINT186), Parameter(  AUTOINT187), Parameter(  AUTOINT188), Parameter(  AUTOINT189), Parameter(  AUTOINT190), Parameter(  AUTOINT191), Parameter(  AUTOINT192), Parameter(  AUTOINT193), Parameter(  AUTOINT194), Parameter(  AUTOINT195), Parameter(  AUTOINT196), Parameter(  AUTOINT197), Parameter(  AUTOINT198), Parameter(  AUTOINT199), Parameter(  AUTOINT200), Parameter(  AUTOINT201), Parameter(  AUTOINT202), Parameter(  AUTOINT203), Parameter(  AUTOINT204), Parameter(  AUTOINT205), Parameter(  AUTOINT206), Parameter(  AUTOINT207), Parameter(  AUTOINT208), Parameter(  AUTOINT209), Parameter(  AUTOINT210), Parameter(  AUTOINT211), Parameter(  AUTOINT212), Parameter(  AUTOINT213), Parameter(  AUTOINT214), Parameter(  AUTOINT215), Parameter(  AUTOINT216), Parameter(  AUTOINT217), Parameter(  AUTOINT218), Parameter(  AUTOINT219), Parameter(  AUTOINT220), Parameter(  AUTOINT221), Parameter(  AUTOINT222), Parameter(  AUTOINT223), Parameter(  AUTOINT224), Parameter(  AUTOINT225), Parameter(  AUTOINT226), Parameter(  AUTOINT227), Parameter(  AUTOINT228), Parameter(  AUTOINT229), Parameter(  AUTOINT230), Parameter(  AUTOINT231), Parameter(  AUTOINT232), Parameter(  AUTOINT233), Parameter(  AUTOINT234), Parameter(  AUTOINT235), Parameter(  AUTOINT236), Parameter(  AUTOINT237), Parameter(  AUTOINT238), Parameter(  AUTOINT239), Parameter(  AUTOINT240), Parameter(  AUTOINT241), Parameter(  AUTOINT242), Parameter(  AUTOINT243), Parameter(  AUTOINT244), Parameter(  AUTOINT245), Parameter(  AUTOINT246), Parameter(  AUTOINT247), Parameter(  AUTOINT248), Parameter(  AUTOINT249), Parameter(  AUTOINT250), Parameter(  AUTOINT251), Parameter(  AUTOINT252), Parameter(  AUTOINT253), Parameter(  AUTOINT254), Parameter(  AUTOINT255), Parameter(  AUTOINT256), Parameter(  AUTOINT257), Parameter(  AUTOINT258), Parameter(  AUTOINT259), Parameter(  AUTOINT260), Parameter(  AUTOINT261), Parameter(  AUTOINT262), Parameter(  AUTOINT263), Parameter(  AUTOINT264), Parameter(  AUTOINT265), Parameter(  AUTOINT266), Parameter(  AUTOINT267), Parameter(  AUTOINT268), Parameter(  AUTOINT269), Parameter(  AUTOINT270), Parameter(  AUTOINT271), Parameter(  AUTOINT272), Parameter(  AUTOINT273), Parameter(  AUTOINT274), Parameter(  AUTOINT275), Parameter(  AUTOINT276), Parameter(  AUTOINT277), Parameter(  AUTOINT278), Parameter(  AUTOINT279), Parameter(  AUTOINT280), Parameter(  AUTOINT281), Parameter(  AUTOINT282), Parameter(  AUTOINT283), Parameter(  AUTOINT284), Parameter(  AUTOINT285), Parameter(  AUTOINT286), Parameter(  AUTOINT287), Parameter(  AUTOINT288), Parameter(  AUTOINT289), Parameter(  AUTOINT290), Parameter(  AUTOINT291), Parameter(  AUTOINT292), Parameter(  AUTOINT293), Parameter(  AUTOINT294), Parameter(  AUTOINT295), Parameter(  AUTOINT296), Parameter(  AUTOINT297), Parameter(  AUTOINT298), Parameter(  AUTOINT299), Parameter(  AUTOINT300), Parameter(  AUTOINT301), Parameter(  AUTOINT302), Parameter(  AUTOINT303), Parameter(  AUTOINT304), Parameter(  AUTOINT305), Parameter(  AUTOINT306), Parameter(  AUTOINT307), Parameter(  AUTOINT308), Parameter(  AUTOINT309), Parameter(  AUTOINT310), Parameter(  AUTOINT311), Parameter(  AUTOINT312), Parameter(  AUTOINT313), Parameter(  AUTOINT314), Parameter(  AUTOINT315), Parameter(  AUTOINT316), Parameter(  AUTOINT317), Parameter(  AUTOINT318), Parameter(  AUTOINT319), Parameter(  AUTOINT320), Parameter(  AUTOINT321), Parameter(  AUTOINT322), Parameter(  AUTOINT323), Parameter(  AUTOINT324), Parameter(  AUTOINT325), Parameter(  AUTOINT326), Parameter(  AUTOINT327), Parameter(  AUTOINT328), Parameter(  AUTOINT329), Parameter(  AUTOINT330), Parameter(  AUTOINT331), Parameter(  AUTOINT332), Parameter(  AUTOINT333), Parameter(  AUTOINT334), Parameter(  AUTOINT335), Parameter(  AUTOINT336), Parameter(  AUTOINT337), Parameter(  AUTOINT338), Parameter(  AUTOINT339), Parameter(  AUTOINT340), Parameter(  AUTOINT341), Parameter(  AUTOINT342), Parameter(  AUTOINT343), Parameter(  AUTOINT344), Parameter(  AUTOINT345), Parameter(  AUTOINT346), Parameter(  AUTOINT347), Parameter(  AUTOINT348), Parameter(  AUTOINT349), Parameter(  AUTOINT350), Parameter(  AUTOINT351), Parameter(  AUTOINT352), Parameter(  AUTOINT353), Parameter(  AUTOINT354), Parameter(  AUTOINT355), Parameter(  AUTOINT356), Parameter(  AUTOINT357), Parameter(  AUTOINT358), Parameter(  AUTOINT359), Parameter(  AUTOINT360), Parameter(  AUTOINT361), Parameter(  AUTOINT362), Parameter(  AUTOINT363), Parameter(  AUTOINT364), Parameter(  AUTOINT365), Parameter(  AUTOINT366), Parameter(  AUTOINT367), Parameter(  AUTOINT368), Parameter(  AUTOINT369), Parameter(  AUTOINT370), Parameter(  AUTOINT371), Parameter(  AUTOINT372), Parameter(  AUTOINT373), Parameter(  AUTOINT374), Parameter(  AUTOINT375), Parameter(  AUTOINT376), Parameter(  AUTOINT377), Parameter(  AUTOINT378), Parameter(  AUTOINT379), Parameter(  AUTOINT380), Parameter(  AUTOINT381), Parameter(  AUTOINT382), Parameter(  AUTOINT383), Parameter(  AUTOINT384), Parameter(  AUTOINT385), Parameter(  AUTOINT386), Parameter(  AUTOINT387), Parameter(  AUTOINT388), Parameter(  AUTOINT389), Parameter(  AUTOINT390), Parameter(  AUTOINT391), Parameter(  AUTOINT392), Parameter(  AUTOINT393), Parameter(  AUTOINT394), Parameter(  AUTOINT395), Parameter(  AUTOINT396), Parameter(  AUTOINT397), Parameter(  AUTOINT398), Parameter(  AUTOINT399), Parameter(  AUTOINT400), Parameter(  AUTOINT401), Parameter(  AUTOINT402), Parameter(  AUTOINT403), Parameter(  AUTOINT404), Parameter(  AUTOINT405), Parameter(  AUTOINT406), Parameter(  AUTOINT407), Parameter(  AUTOINT408), Parameter(  AUTOINT409), Parameter(  AUTOINT410), Parameter(  AUTOINT411), Parameter(  AUTOINT412), Parameter(  AUTOINT413), Parameter(  AUTOINT414), Parameter(  AUTOINT415), Parameter(  AUTOINT416), Parameter(  AUTOINT417), Parameter(  AUTOINT418), Parameter(  AUTOINT419), Parameter(  AUTOINT420), Parameter(  AUTOINT421), Parameter(  AUTOINT422), Parameter(  AUTOINT423), Parameter(  AUTOINT424), Parameter(  AUTOINT425), Parameter(  AUTOINT426), Parameter(  AUTOINT427), Parameter(  AUTOINT428), Parameter(  AUTOINT429), Parameter(  AUTOINT430), Parameter(  AUTOINT431), Parameter(  AUTOINT432), Parameter(  AUTOINT433), Parameter(  AUTOINT434), Parameter(  AUTOINT435), Parameter(  AUTOINT436), Parameter(  AUTOINT437), Parameter(  AUTOINT438), Parameter(  AUTOINT439), Parameter(  AUTOINT440), Parameter(  AUTOINT441), Parameter(  AUTOINT442), Parameter(  AUTOINT443), Parameter(  AUTOINT444), Parameter(  AUTOINT445), Parameter(  AUTOINT446), Parameter(  AUTOINT447), Parameter(  AUTOINT448), Parameter(  AUTOINT449), Parameter(  AUTOINT450), Parameter(  AUTOINT451), Parameter(  AUTOINT452), Parameter(  AUTOINT453), Parameter(  AUTOINT454), Parameter(  AUTOINT455), Parameter(  AUTOINT456), Parameter(  AUTOINT457), Parameter(  AUTOINT458), Parameter(  AUTOINT459), Parameter(  AUTOINT460), Parameter(  AUTOINT461), Parameter(  AUTOINT462), Parameter(  AUTOINT463), Parameter(  AUTOINT464), Parameter(  AUTOINT465), Parameter(  AUTOINT466), Parameter(  AUTOINT467), Parameter(  AUTOINT468), Parameter(  AUTOINT469), Parameter(  AUTOINT470), Parameter(  AUTOINT471), Parameter(  AUTOINT472), Parameter(  AUTOINT473), Parameter(  AUTOINT474), Parameter(  AUTOINT475), Parameter(  AUTOINT476), Parameter(  AUTOINT477), Parameter(  AUTOINT478), Parameter(  AUTOINT479), Parameter(  AUTOINT480), Parameter(  AUTOINT481), Parameter(  AUTOINT482), Parameter(  AUTOINT483), Parameter(  AUTOINT484), Parameter(  AUTOINT485), Parameter(  AUTOINT486), Parameter(  AUTOINT487), Parameter(  AUTOINT488), Parameter(  AUTOINT489), Parameter(  AUTOINT490), Parameter(  AUTOINT491), Parameter(  AUTOINT492), Parameter(  AUTOINT493), Parameter(  AUTOINT494), Parameter(  AUTOINT495), Parameter(  AUTOINT496), Parameter(  AUTOINT497), Parameter(  AUTOINT498), Parameter(  AUTOINT499), Parameter(  AUTOINT500), Parameter(  AUTOINT501), Parameter(  AUTOINT502), Parameter(  AUTOINT503), Parameter(  AUTOINT504), Parameter(  AUTOINT505), Parameter(  AUTOINT506), Parameter(  AUTOINT507), Parameter(  AUTOINT508), Parameter(  AUTOINT509), Parameter(  AUTOINT510), Parameter(  AUTOINT511), Parameter(  AUTOINT512), Parameter(  AUTOINT513), Parameter(  AUTOINT514), Parameter(  AUTOINT515), Parameter(  AUTOINT516), Parameter(  AUTOINT517), Parameter(  AUTOINT518), Parameter(  AUTOINT519), Parameter(  AUTOINT520), Parameter(  AUTOINT521), Parameter(  AUTOINT522), Parameter(  AUTOINT523), Parameter(  AUTOINT524), Parameter(  AUTOINT525), Parameter(  AUTOINT526), Parameter(  AUTOINT527), Parameter(  AUTOINT528), Parameter(  AUTOINT529), Parameter(  AUTOINT530), Parameter(  AUTOINT531), Parameter(  AUTOINT532), Parameter(  AUTOINT533), Parameter(  AUTOINT534), Parameter(  AUTOINT535), Parameter(  AUTOINT536), Parameter(  AUTOINT537), Parameter(  AUTOINT538), Parameter(  AUTOINT539), Parameter(  AUTOINT540), Parameter(  AUTOINT541), Parameter(  AUTOINT542), Parameter(  AUTOINT543), Parameter(  AUTOINT544), Parameter(  AUTOINT545), Parameter(  AUTOINT546), Parameter(  AUTOINT547)))),In(FunctionInvocation(FunctionName(id),false,Vector(Identifier(b))),Collection(List(Parameter(  AUTOINT548), Parameter(  AUTOINT549), Parameter(  AUTOINT550), Parameter(  AUTOINT551), Parameter(  AUTOINT552), Parameter(  AUTOINT553), Parameter(  AUTOINT554), Parameter(  AUTOINT555), Parameter(  AUTOINT556), Parameter(  AUTOINT557), Parameter(  AUTOINT558), Parameter(  AUTOINT559), Parameter(  AUTOINT560), Parameter(  AUTOINT561), Parameter(  AUTOINT562), Parameter(  AUTOINT563), Parameter(  AUTOINT564), Parameter(  AUTOINT565), Parameter(  AUTOINT566), Parameter(  AUTOINT567), Parameter(  AUTOINT568), Parameter(  AUTOINT569), Parameter(  AUTOINT570), Parameter(  AUTOINT571), Parameter(  AUTOINT572), Parameter(  AUTOINT573), Parameter(  AUTOINT574), Parameter(  AUTOINT575), Parameter(  AUTOINT576), Parameter(  AUTOINT577), Parameter(  AUTOINT578), Parameter(  AUTOINT579), Parameter(  AUTOINT580), Parameter(  AUTOINT581), Parameter(  AUTOINT582), Parameter(  AUTOINT583), Parameter(  AUTOINT584), Parameter(  AUTOINT585), Parameter(  AUTOINT586), Parameter(  AUTOINT587), Parameter(  AUTOINT588), Parameter(  AUTOINT589), Parameter(  AUTOINT590), Parameter(  AUTOINT591), Parameter(  AUTOINT592), Parameter(  AUTOINT593), Parameter(  AUTOINT594), Parameter(  AUTOINT595), Parameter(  AUTOINT596), Parameter(  AUTOINT597), Parameter(  AUTOINT598), Parameter(  AUTOINT599), Parameter(  AUTOINT600), Parameter(  AUTOINT601), Parameter(  AUTOINT602), Parameter(  AUTOINT603), Parameter(  AUTOINT604), Parameter(  AUTOINT605), Parameter(  AUTOINT606), Parameter(  AUTOINT607), Parameter(  AUTOINT608), Parameter(  AUTOINT609), Parameter(  AUTOINT610), Parameter(  AUTOINT611), Parameter(  AUTOINT612), Parameter(  AUTOINT613), Parameter(  AUTOINT614), Parameter(  AUTOINT615), Parameter(  AUTOINT616), Parameter(  AUTOINT617), Parameter(  AUTOINT618), Parameter(  AUTOINT619), Parameter(  AUTOINT620), Parameter(  AUTOINT621), Parameter(  AUTOINT622), Parameter(  AUTOINT623), Parameter(  AUTOINT624), Parameter(  AUTOINT625), Parameter(  AUTOINT626), Parameter(  AUTOINT627), Parameter(  AUTOINT628), Parameter(  AUTOINT629), Parameter(  AUTOINT630), Parameter(  AUTOINT631), Parameter(  AUTOINT632), Parameter(  AUTOINT633), Parameter(  AUTOINT634), Parameter(  AUTOINT635), Parameter(  AUTOINT636), Parameter(  AUTOINT637), Parameter(  AUTOINT638), Parameter(  AUTOINT639), Parameter(  AUTOINT640), Parameter(  AUTOINT641), Parameter(  AUTOINT642), Parameter(  AUTOINT643), Parameter(  AUTOINT644), Parameter(  AUTOINT645), Parameter(  AUTOINT646), Parameter(  AUTOINT647), Parameter(  AUTOINT648), Parameter(  AUTOINT649), Parameter(  AUTOINT650), Parameter(  AUTOINT651), Parameter(  AUTOINT652), Parameter(  AUTOINT653), Parameter(  AUTOINT654), Parameter(  AUTOINT655), Parameter(  AUTOINT656), Parameter(  AUTOINT657), Parameter(  AUTOINT658), Parameter(  AUTOINT659), Parameter(  AUTOINT660), Parameter(  AUTOINT661), Parameter(  AUTOINT662), Parameter(  AUTOINT663), Parameter(  AUTOINT664), Parameter(  AUTOINT665), Parameter(  AUTOINT666), Parameter(  AUTOINT667), Parameter(  AUTOINT668), Parameter(  AUTOINT669), Parameter(  AUTOINT670), Parameter(  AUTOINT671), Parameter(  AUTOINT672), Parameter(  AUTOINT673), Parameter(  AUTOINT674), Parameter(  AUTOINT675), Parameter(  AUTOINT676), Parameter(  AUTOINT677), Parameter(  AUTOINT678), Parameter(  AUTOINT679), Parameter(  AUTOINT680), Parameter(  AUTOINT681), Parameter(  AUTOINT682), Parameter(  AUTOINT683), Parameter(  AUTOINT684), Parameter(  AUTOINT685), Parameter(  AUTOINT686), Parameter(  AUTOINT687), Parameter(  AUTOINT688), Parameter(  AUTOINT689), Parameter(  AUTOINT690), Parameter(  AUTOINT691), Parameter(  AUTOINT692), Parameter(  AUTOINT693), Parameter(  AUTOINT694), Parameter(  AUTOINT695), Parameter(  AUTOINT696), Parameter(  AUTOINT697), Parameter(  AUTOINT698), Parameter(  AUTOINT699), Parameter(  AUTOINT700), Parameter(  AUTOINT701), Parameter(  AUTOINT702), Parameter(  AUTOINT703), Parameter(  AUTOINT704), Parameter(  AUTOINT705), Parameter(  AUTOINT706), Parameter(  AUTOINT707), Parameter(  AUTOINT708), Parameter(  AUTOINT709), Parameter(  AUTOINT710), Parameter(  AUTOINT711), Parameter(  AUTOINT712), Parameter(  AUTOINT713), Parameter(  AUTOINT714), Parameter(  AUTOINT715), Parameter(  AUTOINT716), Parameter(  AUTOINT717), Parameter(  AUTOINT718), Parameter(  AUTOINT719), Parameter(  AUTOINT720), Parameter(  AUTOINT721), Parameter(  AUTOINT722), Parameter(  AUTOINT723), Parameter(  AUTOINT724), Parameter(  AUTOINT725), Parameter(  AUTOINT726), Parameter(  AUTOINT727), Parameter(  AUTOINT728), Parameter(  AUTOINT729), Parameter(  AUTOINT730), Parameter(  AUTOINT731), Parameter(  AUTOINT732), Parameter(  AUTOINT733), Parameter(  AUTOINT734), Parameter(  AUTOINT735), Parameter(  AUTOINT736), Parameter(  AUTOINT737), Parameter(  AUTOINT738), Parameter(  AUTOINT739), Parameter(  AUTOINT740), Parameter(  AUTOINT741), Parameter(  AUTOINT742), Parameter(  AUTOINT743), Parameter(  AUTOINT744), Parameter(  AUTOINT745), Parameter(  AUTOINT746), Parameter(  AUTOINT747), Parameter(  AUTOINT748), Parameter(  AUTOINT749), Parameter(  AUTOINT750), Parameter(  AUTOINT751), Parameter(  AUTOINT752), Parameter(  AUTOINT753), Parameter(  AUTOINT754), Parameter(  AUTOINT755), Parameter(  AUTOINT756), Parameter(  AUTOINT757), Parameter(  AUTOINT758), Parameter(  AUTOINT759), Parameter(  AUTOINT760), Parameter(  AUTOINT761), Parameter(  AUTOINT762), Parameter(  AUTOINT763), Parameter(  AUTOINT764), Parameter(  AUTOINT765), Parameter(  AUTOINT766), Parameter(  AUTOINT767), Parameter(  AUTOINT768), Parameter(  AUTOINT769), Parameter(  AUTOINT770), Parameter(  AUTOINT771), Parameter(  AUTOINT772), Parameter(  AUTOINT773), Parameter(  AUTOINT774), Parameter(  AUTOINT775), Parameter(  AUTOINT776), Parameter(  AUTOINT777), Parameter(  AUTOINT778), Parameter(  AUTOINT779), Parameter(  AUTOINT780), Parameter(  AUTOINT781), Parameter(  AUTOINT782), Parameter(  AUTOINT783), Parameter(  AUTOINT784), Parameter(  AUTOINT785), Parameter(  AUTOINT786), Parameter(  AUTOINT787), Parameter(  AUTOINT788), Parameter(  AUTOINT789), Parameter(  AUTOINT790), Parameter(  AUTOINT791), Parameter(  AUTOINT792), Parameter(  AUTOINT793), Parameter(  AUTOINT794), Parameter(  AUTOINT795), Parameter(  AUTOINT796), Parameter(  AUTOINT797), Parameter(  AUTOINT798), Parameter(  AUTOINT799), Parameter(  AUTOINT800), Parameter(  AUTOINT801), Parameter(  AUTOINT802), Parameter(  AUTOINT803), Parameter(  AUTOINT804), Parameter(  AUTOINT805), Parameter(  AUTOINT806), Parameter(  AUTOINT807), Parameter(  AUTOINT808), Parameter(  AUTOINT809), Parameter(  AUTOINT810), Parameter(  AUTOINT811), Parameter(  AUTOINT812), Parameter(  AUTOINT813), Parameter(  AUTOINT814), Parameter(  AUTOINT815), Parameter(  AUTOINT816), Parameter(  AUTOINT817), Parameter(  AUTOINT818), Parameter(  AUTOINT819), Parameter(  AUTOINT820), Parameter(  AUTOINT821), Parameter(  AUTOINT822), Parameter(  AUTOINT823), Parameter(  AUTOINT824), Parameter(  AUTOINT825), Parameter(  AUTOINT826), Parameter(  AUTOINT827), Parameter(  AUTOINT828), Parameter(  AUTOINT829), Parameter(  AUTOINT830), Parameter(  AUTOINT831), Parameter(  AUTOINT832), Parameter(  AUTOINT833), Parameter(  AUTOINT834), Parameter(  AUTOINT835), Parameter(  AUTOINT836), Parameter(  AUTOINT837), Parameter(  AUTOINT838), Parameter(  AUTOINT839), Parameter(  AUTOINT840), Parameter(  AUTOINT841), Parameter(  AUTOINT842), Parameter(  AUTOINT843), Parameter(  AUTOINT844), Parameter(  AUTOINT845), Parameter(  AUTOINT846), Parameter(  AUTOINT847), Parameter(  AUTOINT848), Parameter(  AUTOINT849), Parameter(  AUTOINT850), Parameter(  AUTOINT851), Parameter(  AUTOINT852), Parameter(  AUTOINT853), Parameter(  AUTOINT854), Parameter(  AUTOINT855), Parameter(  AUTOINT856), Parameter(  AUTOINT857), Parameter(  AUTOINT858), Parameter(  AUTOINT859), Parameter(  AUTOINT860), Parameter(  AUTOINT861), Parameter(  AUTOINT862), Parameter(  AUTOINT863), Parameter(  AUTOINT864), Parameter(  AUTOINT865), Parameter(  AUTOINT866), Parameter(  AUTOINT867), Parameter(  AUTOINT868), Parameter(  AUTOINT869), Parameter(  AUTOINT870), Parameter(  AUTOINT871), Parameter(  AUTOINT872), Parameter(  AUTOINT873), Parameter(  AUTOINT874), Parameter(  AUTOINT875), Parameter(  AUTOINT876), Parameter(  AUTOINT877), Parameter(  AUTOINT878), Parameter(  AUTOINT879), Parameter(  AUTOINT880), Parameter(  AUTOINT881), Parameter(  AUTOINT882), Parameter(  AUTOINT883), Parameter(  AUTOINT884), Parameter(  AUTOINT885), Parameter(  AUTOINT886), Parameter(  AUTOINT887), Parameter(  AUTOINT888), Parameter(  AUTOINT889), Parameter(  AUTOINT890), Parameter(  AUTOINT891), Parameter(  AUTOINT892), Parameter(  AUTOINT893), Parameter(  AUTOINT894), Parameter(  AUTOINT895), Parameter(  AUTOINT896), Parameter(  AUTOINT897), Parameter(  AUTOINT898), Parameter(  AUTOINT899), Parameter(  AUTOINT900), Parameter(  AUTOINT901), Parameter(  AUTOINT902), Parameter(  AUTOINT903), Parameter(  AUTOINT904), Parameter(  AUTOINT905), Parameter(  AUTOINT906), Parameter(  AUTOINT907), Parameter(  AUTOINT908), Parameter(  AUTOINT909), Parameter(  AUTOINT910), Parameter(  AUTOINT911), Parameter(  AUTOINT912), Parameter(  AUTOINT913), Parameter(  AUTOINT914), Parameter(  AUTOINT915), Parameter(  AUTOINT916), Parameter(  AUTOINT917), Parameter(  AUTOINT918), Parameter(  AUTOINT919), Parameter(  AUTOINT920), Parameter(  AUTOINT921), Parameter(  AUTOINT922), Parameter(  AUTOINT923), Parameter(  AUTOINT924), Parameter(  AUTOINT925), Parameter(  AUTOINT926), Parameter(  AUTOINT927), Parameter(  AUTOINT928), Parameter(  AUTOINT929), Parameter(  AUTOINT930), Parameter(  AUTOINT931), Parameter(  AUTOINT932), Parameter(  AUTOINT933), Parameter(  AUTOINT934), Parameter(  AUTOINT935), Parameter(  AUTOINT936), Parameter(  AUTOINT937), Parameter(  AUTOINT938), Parameter(  AUTOINT939), Parameter(  AUTOINT940), Parameter(  AUTOINT941), Parameter(  AUTOINT942), Parameter(  AUTOINT943), Parameter(  AUTOINT944), Parameter(  AUTOINT945), Parameter(  AUTOINT946), Parameter(  AUTOINT947), Parameter(  AUTOINT948), Parameter(  AUTOINT949), Parameter(  AUTOINT950), Parameter(  AUTOINT951), Parameter(  AUTOINT952), Parameter(  AUTOINT953), Parameter(  AUTOINT954), Parameter(  AUTOINT955), Parameter(  AUTOINT956), Parameter(  AUTOINT957), Parameter(  AUTOINT958), Parameter(  AUTOINT959), Parameter(  AUTOINT960), Parameter(  AUTOINT961), Parameter(  AUTOINT962), Parameter(  AUTOINT963), Parameter(  AUTOINT964), Parameter(  AUTOINT965), Parameter(  AUTOINT966), Parameter(  AUTOINT967), Parameter(  AUTOINT968), Parameter(  AUTOINT969), Parameter(  AUTOINT970), Parameter(  AUTOINT971), Parameter(  AUTOINT972), Parameter(  AUTOINT973), Parameter(  AUTOINT974), Parameter(  AUTOINT975), Parameter(  AUTOINT976), Parameter(  AUTOINT977), Parameter(  AUTOINT978), Parameter(  AUTOINT979), Parameter(  AUTOINT980), Parameter(  AUTOINT981), Parameter(  AUTOINT982), Parameter(  AUTOINT983), Parameter(  AUTOINT984), Parameter(  AUTOINT985), Parameter(  AUTOINT986), Parameter(  AUTOINT987), Parameter(  AUTOINT988), Parameter(  AUTOINT989), Parameter(  AUTOINT990), Parameter(  AUTOINT991), Parameter(  AUTOINT992), Parameter(  AUTOINT993), Parameter(  AUTOINT994), Parameter(  AUTOINT995), Parameter(  AUTOINT996), Parameter(  AUTOINT997), Parameter(  AUTOINT998), Parameter(  AUTOINT999), Parameter(  AUTOINT1000), Parameter(  AUTOINT1001), Parameter(  AUTOINT1002), Parameter(  AUTOINT1003), Parameter(  AUTOINT1004), Parameter(  AUTOINT1005), Parameter(  AUTOINT1006), Parameter(  AUTOINT1007), Parameter(  AUTOINT1008), Parameter(  AUTOINT1009), Parameter(  AUTOINT1010), Parameter(  AUTOINT1011), Parameter(  AUTOINT1012), Parameter(  AUTOINT1013), Parameter(  AUTOINT1014), Parameter(  AUTOINT1015), Parameter(  AUTOINT1016), Parameter(  AUTOINT1017), Parameter(  AUTOINT1018), Parameter(  AUTOINT1019), Parameter(  AUTOINT1020), Parameter(  AUTOINT1021), Parameter(  AUTOINT1022), Parameter(  AUTOINT1023), Parameter(  AUTOINT1024), Parameter(  AUTOINT1025), Parameter(  AUTOINT1026), Parameter(  AUTOINT1027), Parameter(  AUTOINT1028), Parameter(  AUTOINT1029), Parameter(  AUTOINT1030), Parameter(  AUTOINT1031), Parameter(  AUTOINT1032), Parameter(  AUTOINT1033), Parameter(  AUTOINT1034), Parameter(  AUTOINT1035), Parameter(  AUTOINT1036), Parameter(  AUTOINT1037), Parameter(  AUTOINT1038), Parameter(  AUTOINT1039), Parameter(  AUTOINT1040), Parameter(  AUTOINT1041), Parameter(  AUTOINT1042), Parameter(  AUTOINT1043), Parameter(  AUTOINT1044), Parameter(  AUTOINT1045), Parameter(  AUTOINT1046), Parameter(  AUTOINT1047), Parameter(  AUTOINT1048), Parameter(  AUTOINT1049), Parameter(  AUTOINT1050), Parameter(  AUTOINT1051), Parameter(  AUTOINT1052), Parameter(  AUTOINT1053), Parameter(  AUTOINT1054), Parameter(  AUTOINT1055), Parameter(  AUTOINT1056), Parameter(  AUTOINT1057), Parameter(  AUTOINT1058), Parameter(  AUTOINT1059), Parameter(  AUTOINT1060), Parameter(  AUTOINT1061), Parameter(  AUTOINT1062), Parameter(  AUTOINT1063), Parameter(  AUTOINT1064), Parameter(  AUTOINT1065), Parameter(  AUTOINT1066), Parameter(  AUTOINT1067), Parameter(  AUTOINT1068), Parameter(  AUTOINT1069), Parameter(  AUTOINT1070), Parameter(  AUTOINT1071), Parameter(  AUTOINT1072), Parameter(  AUTOINT1073), Parameter(  AUTOINT1074), Parameter(  AUTOINT1075), Parameter(  AUTOINT1076), Parameter(  AUTOINT1077), Parameter(  AUTOINT1078), Parameter(  AUTOINT1079), Parameter(  AUTOINT1080), Parameter(  AUTOINT1081), Parameter(  AUTOINT1082), Parameter(  AUTOINT1083), Parameter(  AUTOINT1084), Parameter(  AUTOINT1085), Parameter(  AUTOINT1086), Parameter(  AUTOINT1087), Parameter(  AUTOINT1088), Parameter(  AUTOINT1089), Parameter(  AUTOINT1090), Parameter(  AUTOINT1091), Parameter(  AUTOINT1092), Parameter(  AUTOINT1093), Parameter(  AUTOINT1094), Parameter(  AUTOINT1095)))))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2016-04-09 21:54:59.656+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1125ms.
+2016-04-09 22:27:48.561+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1255332ms.
+2016-04-09 23:15:55.654+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 626ms.
+2016-04-09 23:53:42.836+0000 INFO  [o.n.k.i.f.GraphDatabaseFacade] Shutdown started
+2016-04-09 23:53:42.877+0000 INFO  [o.n.k.i.f.CommunityFacadeFactory] Database is now unavailable
+2016-04-09 23:53:43.018+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [395]:  Starting check pointing...
+2016-04-09 23:53:43.032+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [395]:  Starting store flush...
+2016-04-09 23:53:43.086+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [395]:  Store flush completed
+2016-04-09 23:53:43.097+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [395]:  Starting appending check point entry into the tx log...
+2016-04-09 23:53:43.192+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [395]:  Appending check point entry into the tx log completed
+2016-04-09 23:53:43.206+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [395]:  Check pointing completed
+2016-04-09 23:53:43.216+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-04-09 23:53:43.226+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-04-09 23:53:44.601+0000 INFO  [o.n.k.NeoStoreDataSource] NeoStores closed
+2016-04-09 23:53:44.612+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2016-04-09 23:53:44.612+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
