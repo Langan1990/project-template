@@ -14,7 +14,7 @@ I used the following statement to create the candidates:
 
 	CREATE(can:Candidate {cid: 1, Name: "Pat 'The Cope' Gallagher", Party: "Fianna Fail", Gender: "Male", Age: 67, Constituency: "Donegal", Elected: "Yes"})
 	
-	
+match (a{Constituency:"Clare"}),(b{Name:"Clare"}) create (a)-[r:RAN_IN]->(b) return a,b	
 
 ## Queries
 Summarise your three queries here.
