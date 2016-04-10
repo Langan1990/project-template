@@ -7,44 +7,42 @@ Then we have to come up with 3 queries that show some useful information about t
 
 ## Database
 I started the database by creating the constituencies. Here is an example of one of the create statements:
-
+	
+	```
 	CREATE(constituency:Constituency {id: 4, Name: "Louth", SeatsAvailable: 5})
+	```
 	
 I used the following statement to create the candidates:
-
-	CREATE(can:Candidate {cid: 1, Name: "Pat 'The Cope' Gallagher", Party: "Fianna Fail", Gender: "Male", Age: 67, Constituency: "Donegal", Elected: "Yes"})
 	
-match (a{Constituency:"Clare"}),(b{Name:"Clare"}) create (a)-[r:RAN_IN]->(b) return a,b	
-
+	```
+	CREATE(can:Candidate {cid: 1, Name: "Pat 'The Cope' Gallagher", Party: "Fianna Fail", Gender: "Male", Age: 67, Constituency: "Donegal", Elected: "Yes"})
+	```
+	
+This is the statement that created the relationships from candidates to the constituencies
+	
+	```
+	match (a{Constituency:"Clare"}),(b{Name:"Clare"}) create (a)-[r:RAN_IN]->(b) return a,b	
+	```
+	
 ## Queries
-Summarise your three queries here.
-Then explain them one by one in the following sections.
+The 3 quereis i decided to do were. Find all male cadidates in mayo, constituencies with 5 available seats and candidates that were elected in connacht
 
-#### Query one title
-This query retreives the Bacon number of an actor...
+#### Male Candidates in Mayo 
+This query retreives the male candidates who ran in Mayo
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH (n:Candidate) WHERE n.Gender="Male" AND n.Constituency="Mayo" return n;
 ```
 
-#### Query two title
-This query retreives the Bacon number of an actor...
+#### Constituency's with 5 available seats
+This query retreives the constituencies who have 5 seats available 
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH (n:Constituency) WHERE n.SeatsAvailable = 5 return n;
 ```
 
-#### Query three title
-This query retreives the Bacon number of an actor...
+#### Candidates Elected in Connacht
+This query retrieves all the elected candidates in constituencies in Connacht
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH (n:Candidate) WHERE n.Constituency="Mayo" AND n.Elected="Yes" OR n.Constituency="Galway East" AND n.Elected="Yes" OR n.Constituency="Galway West" AND n.Elected="Yes" OR n.Constituency="Roscommon-Galway" AND n.Elected="Yes" OR n.Constituency="Sligo-Leitrim" AND n.Elected="Yes"  return n;
 ```
 
 ## References
